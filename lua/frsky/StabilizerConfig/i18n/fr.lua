@@ -67,7 +67,7 @@ return {
   CaliSR6Step1 = "Positionner le SR6 horizontalement, connecteurs en haut.",
   CaliSR6Step2 = "Positionner le SR6 horizontalement, connecteurs en bas.",
   CaliSR6Step3 = "Positionner le SR6 verticalement, ANT en bas.",
-  CaliSR6Step4 = "Positionner le SR6 verticalement, ANT en bas.",
+  CaliSR6Step4 = "Positionner le SR6 verticalement, ANT en haut.",
   CaliSR6Step5 = "Positionner le SR6 ANT à droite, connecteurs face à vous.",
   CaliSR6Step6 = "Positionner le SR6 ANT à droite, connecteurs face opposée.",
 
