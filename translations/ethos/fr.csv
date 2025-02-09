@@ -1127,5 +1127,5 @@ SOLENOID_VALVE,"Electrovanne",
 BIND_CARD,"Carte appairage",
 WAITING_FOR_NFC_CARD,"Maintenir la clé NFC proche du panneau NFC pour appairage...",
 BIND_CARD_SUCCESS,"Appairage carte NFC réussi !",
-BIND_CARD_FAIL,"Echec apparairgae carte NFC !",
+BIND_CARD_FAIL,"Echec appairage carte NFC !",
 BUS_INVERT,"Bus invert"
