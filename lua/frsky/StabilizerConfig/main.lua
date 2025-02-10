@@ -1,4 +1,4 @@
-local LUA_VERSION = "3.0.3";
+local LUA_VERSION = "3.0.3.1";
 
 TEST = false
 GlobalPath = ""
@@ -172,6 +172,7 @@ local function buildBackupForm(ePanel, focusRefresh)
       return
     end
 
+    print("Open file: ", restoreFileName)
     local status, size = pcall(function()
       local size = file:seek("end")
       file:seek("set")
@@ -179,8 +180,9 @@ local function buildBackupForm(ePanel, focusRefresh)
     end)
 
     if status then
-      print("file:seek() is supported")
       fileSize = size
+    else
+      print("file:seek() is not supported")
     end
 
     if not Progress.isDialogOpen() then
@@ -189,6 +191,7 @@ local function buildBackupForm(ePanel, focusRefresh)
       Progress.openProgressDialog({title = STR("Loading"), message = STR("LoadingConfigurations", {progress = "0"}), close = function ()
         file:close()
         file = nil
+        print("Close file: ", restoreFileName)
         Progress.clearDialog()
       end, wakeup = function ()
         if saveLoadState == LOAD_STATE_READ then
@@ -200,7 +203,6 @@ local function buildBackupForm(ePanel, focusRefresh)
             saveLoadState = LOAD_STATE_FINISH
             Progress.message(STR("ConfigFileLoaded", {name = '\n' .. restoreFileName}))
             Progress.value(100)
-            Progress.closeAllowed(true)
             return
           end
 
@@ -228,7 +230,6 @@ local function buildBackupForm(ePanel, focusRefresh)
           end
         end
       end})
-      Progress.closeAllowed(false)
     else
       file:close()
       file = nil
@@ -267,10 +268,19 @@ local function buildBackupForm(ePanel, focusRefresh)
         Progress.openProgressDialog({title = STR("Saving"), message = STR("SavingConfigurations", {progress = "0"}), close = function ()
           file:close()
           file = nil
+          print("Close file: ", fileName)
           -- E.M. will be raised
           -- buildBackupForm(ePanel, true)
           Progress.clearDialog()
         end, wakeup = function ()
+          if TEST then
+            if file:seek("end") == 0 then
+              file:write("A5,0,\n")
+              file:seek("set")
+            end
+            return
+          end
+
           if saveLoadState == SAVE_STATE_RESPONSE then
             local value = Sensor.getParameter()
             -- print("Get value: ", value)
@@ -296,7 +306,6 @@ local function buildBackupForm(ePanel, focusRefresh)
                   saveLoadState = SAVE_STATE_FINISH
                   Progress.message(STR("ConfigSaveToFile", {fileName = fileName}))
                   Progress.value(100)
-                  Progress.closeAllowed(true)
                   return
                 end
                 backupAddress = backupAddress + 1
@@ -311,7 +320,6 @@ local function buildBackupForm(ePanel, focusRefresh)
             end
           end
         end})
-        Progress.closeAllowed(false)
       else
         print("Error open file")
         Dialog.openDialog({title = STR("SaveFailed"), message = STR("FSError"), buttons = {{label = STR("OK"), action = function () Dialog.closeDialog() end}}})
