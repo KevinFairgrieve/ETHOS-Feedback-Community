@@ -103,7 +103,8 @@
         "Refresh": "Last på nytt",
         "SystemFiles": "System filer",
         "Dismiss": "Avvis",
-        "ShowPrereleases": "Vis 'Pre-releases'"
+        "ShowPrereleases": "Vis 'Pre-releases'",
+        "VisitThirdparty": "Visit thirdparty url"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Velg din video-komponent-versjon",

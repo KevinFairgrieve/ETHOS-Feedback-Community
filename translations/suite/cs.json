@@ -102,7 +102,8 @@
         "Refresh": "Obnovit",
         "SystemFiles": "Systémové soubory",
         "Dismiss": "Zamítnout",
-        "ShowPrereleases": "Ukázat Show předběžná vydání"
+        "ShowPrereleases": "Ukázat Show předběžná vydání",
+        "VisitThirdparty": "Visit thirdparty url"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Vyberte verzi komponenty videa",

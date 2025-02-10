@@ -103,7 +103,8 @@
         "Refresh": "Aktualisieren",
         "SystemFiles": "System-Dateien",
         "Dismiss": "Abbrechen",
-        "ShowPrereleases": "Vorab-Veröffentlichungen anzeigen"
+        "ShowPrereleases": "Vorab-Veröffentlichungen anzeigen",
+        "VisitThirdparty": "Visit thirdparty url"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Wählen Sie Ihre Video-Komponenten-Version",

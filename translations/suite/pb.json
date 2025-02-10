@@ -103,7 +103,8 @@
         "Refresh": "Refresh",
         "SystemFiles": "System files",
         "Dismiss": "Dismiss",
-        "ShowPrereleases": "Show pre-releases"
+        "ShowPrereleases": "Show pre-releases",
+        "VisitThirdparty": "Visit thirdparty url"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Escolha a versão do componente de vídeo",
