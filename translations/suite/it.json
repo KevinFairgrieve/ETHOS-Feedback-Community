@@ -469,7 +469,7 @@
         "InstallLatest": "Installa ultimo",
         "Reinstall": "Reinstalla",
         "ScriptInfo": "Informazione Script",
-        "TheEntireZip": "The entire zip file"
+        "TheEntireZip": "L'intero File Zip"
     },
     "Updater": {
         "NewVersionAvailable": "Nuova versione Suite {{ version }} disponibile!",
