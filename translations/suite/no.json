@@ -470,7 +470,8 @@
         "InstalledScript": "Installerte script",
         "InstallLatest": "Installer nyeste",
         "Reinstall": "Reinstall",
-        "ScriptInfo": "Script informasjon"
+        "ScriptInfo": "Script informasjon",
+        "TheEntireZip": "The entire zip file"
     },
     "Updater": {
         "NewVersionAvailable": "En ny 'Ethos Suite'-version, versjon {{ version }}, er tilgjengelig!",

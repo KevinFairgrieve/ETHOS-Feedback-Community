@@ -469,7 +469,8 @@
         "InstalledScript": "已安装的脚本",
         "InstallLatest": "安装最新版",
         "Reinstall": "重新安装",
-        "ScriptInfo": "脚本信息"
+        "ScriptInfo": "脚本信息",
+        "TheEntireZip": "The entire zip file"
     },
     "Updater": {
         "NewVersionAvailable": "Suite {{ version }} 已发布!",

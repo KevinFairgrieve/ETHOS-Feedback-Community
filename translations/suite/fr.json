@@ -469,7 +469,8 @@
         "InstalledScript": "Script installé",
         "InstallLatest": "Installer dernière verison",
         "Reinstall": "Reinstaller",
-        "ScriptInfo": "Information Script"
+        "ScriptInfo": "Information Script",
+        "TheEntireZip": "The entire zip file"
     },
     "Updater": {
         "NewVersionAvailable": "Nouvelle version de Suite {{ version }} disponible !",

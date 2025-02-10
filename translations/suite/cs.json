@@ -468,7 +468,8 @@
         "InstalledScript": "Nainstalovane skripty",
         "InstallLatest": "Nainstalovat poslední",
         "Reinstall": "Přeinstalovat",
-        "ScriptInfo": "Informace o skriptu"
+        "ScriptInfo": "Informace o skriptu",
+        "TheEntireZip": "The entire zip file"
     },
     "Updater": {
         "NewVersionAvailable": "Nová verze Suitu {{ version }} je k dispozici!",

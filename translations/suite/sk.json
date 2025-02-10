@@ -469,7 +469,8 @@
         "InstalledScript": "Inštalované skripty",
         "InstallLatest": "Aktuálna inštalácia",
         "Reinstall": "Reinštalácia",
-        "ScriptInfo": "Informácie o skriptoch"
+        "ScriptInfo": "Informácie o skriptoch",
+        "TheEntireZip": "The entire zip file"
     },
     "Updater": {
         "NewVersionAvailable": "Nová verzia Suite {{ version }} je k dispozícii!",
