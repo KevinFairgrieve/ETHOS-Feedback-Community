@@ -91,7 +91,7 @@ class BaseGenerator:
         if norm:
             extra_args.append("norm")
         if silence:
-            extra_args.extend(["reverse", "silence", "1", "0.1", "0.1%", "reverse"])
+            extra_args.extend(["silence", "1", "0.05", "1%", "reverse", "silence", "1", "0.05", "1%", "reverse"])
         tfm.build(input, output, extra_args=extra_args)
 
 
