@@ -106,7 +106,7 @@ class GoogleCloudTextToSpeechGenerator(BaseGenerator):
         )
 
     def cache_prefix(self):
-        return "google-%s" % self.voice_code
+        return "google-%s-%r" % (self.voice_code, self.speed)
 
     def build(self, path, text, options):
         print(path, repr(text), options)
