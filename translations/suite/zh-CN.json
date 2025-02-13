@@ -104,7 +104,8 @@
         "SystemFiles": "系统文件",
         "Dismiss": "忽略",
         "ShowPrereleases": "显示预发布版本",
-        "VisitThirdparty": "访问第三方链接"
+        "VisitThirdparty": "访问第三方链接",
+        "PathInvalid": "The selected file path contains invalid characters, and the file has been removed from the list"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "选择你的视频组件版本",

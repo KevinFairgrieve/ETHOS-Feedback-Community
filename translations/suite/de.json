@@ -104,7 +104,8 @@
         "SystemFiles": "System-Dateien",
         "Dismiss": "Abbrechen",
         "ShowPrereleases": "Vorab-Veröffentlichungen anzeigen",
-        "VisitThirdparty": "Visit thirdparty url"
+        "VisitThirdparty": "Visit thirdparty url",
+        "PathInvalid": "The selected file path contains invalid characters, and the file has been removed from the list"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Wählen Sie Ihre Video-Komponenten-Version",
