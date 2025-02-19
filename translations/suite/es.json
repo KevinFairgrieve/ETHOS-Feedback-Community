@@ -101,7 +101,7 @@
         "Dismiss": "Descartar",
         "ShowPrereleases": "Mostrar pre-releases",
         "VisitThirdparty": "Visitar url de terceros",
-        "PathInvalid": "La localización del archivo contiene caracteres inváidos, y el archivo se ha eliminado de la lista"
+        "PathInvalid": "La localización del archivo contiene caracteres inválidos, y el archivo se ha eliminado de la lista"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Elija su versión de video componente",
