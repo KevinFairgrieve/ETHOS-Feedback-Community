@@ -100,8 +100,8 @@
         "SystemFiles": "Archivos de sistema",
         "Dismiss": "Descartar",
         "ShowPrereleases": "Mostrar pre-releases",
-        "VisitThirdparty": "Visit thirdparty url",
-        "PathInvalid": "The selected file path contains invalid characters, and the file has been removed from the list"
+        "VisitThirdparty": "Visitar url de terceros",
+        "PathInvalid": "La localización del archivo contiene caracteres inváidos, y el archivo se ha eliminado de la lista"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Elija su versión de video componente",
@@ -323,7 +323,7 @@
         "AnalysingComponents": "Analizando componentes...",
         "BackupNotMatchRadio": "Este backup no pertenece a su radio. ¿Quiere continuar?",
         "WritingBackupFile": "Escribiendo archivo backup...",
-        "CreateAtVersion": "Create at version"
+        "CreateAtVersion": "Crear en la version"
     },
     "About": {
         "About": "Acerca de",
@@ -464,7 +464,7 @@
         "InstallLatest": "Instalar el último",
         "Reinstall": "Reinstalar",
         "ScriptInfo": "Información del Script",
-        "TheEntireZip": "The entire zip file"
+        "TheEntireZip": "El archivo zip entero"
     },
     "Updater": {
         "NewVersionAvailable": "Hay disponible una nueva versión de la Suite {{ version }}",
