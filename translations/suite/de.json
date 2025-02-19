@@ -105,7 +105,7 @@
         "Dismiss": "Abbrechen",
         "ShowPrereleases": "Vorab-Veröffentlichungen anzeigen",
         "VisitThirdparty": "Visit thirdparty url",
-        "PathInvalid": "The selected file path contains invalid characters, and the file has been removed from the list"
+        "PathInvalid": "Der ausgewählte Dateipfad enthält ungültige Zeichen und die Datei wurde aus der Liste entfernt"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Wählen Sie Ihre Video-Komponenten-Version",
