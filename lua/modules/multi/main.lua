@@ -18,6 +18,9 @@ local DSM2_ENABLE_MAX_THROW_OPTION = {name="Enable max throw", type="checkbox", 
 local DSM2_SERVO_REFRESH_RATE_OPTION = {name="Servo refresh rate", type="choice", max=0x40, values={{"22ms", 0x00}, {"11ms", 0x40}}}
 local FLYSKY_SERVO_REFRESH_RATE_OPTION = {name="Servo refresh rate", min=0, max=70, display=function(value) return (value * 5 + 50) .. "Hz" end}
 
+-- options sent on byte unknown
+local FIXED_ID = {name="Fixed ID", type="choice", min=0, max=0x01, values={{"Off", 0},{"On", 0x01}}}
+
 local function init()
     system.registerMultimoduleProtocol("Assan", 24, {options={BIND_ON_CHANNEL_OPTION, DISABLE_TELEMETRY_OPTION, LOW_POWER_OPTION}})
     system.registerMultimoduleProtocol("Bayang", 14, {variants={"Bayang", "H8S3D", "X16_AH", "IRDRONE", "DHD_D4", "QX100"}})
@@ -29,7 +32,7 @@ local function init()
     system.registerMultimoduleProtocol("CG023", 13, {variants={"CG023", "YD829"}})
     system.registerMultimoduleProtocol("Corona", 37, {variants={"COR_V1", "COR_V2", "FD_V3"}, options={RF_TUNE_OPTION}})
     system.registerMultimoduleProtocol("CX10", 12, {variants={"GREEN", "BLUE", "DM007", "0", "J3015_1", "J3015_2", "MK33041"}})
-    system.registerMultimoduleProtocol("Devo", 7, {variants={"8CH", "10CH", "12CH", "6CH", "7CH"}})
+    system.registerMultimoduleProtocol("Devo", 7, {variants={"8CH", "10CH", "12CH", "6CH", "7CH"}, options={FIXED_ID}})
     system.registerMultimoduleProtocol("DM002", 33)
     system.registerMultimoduleProtocol("DSM_RX", 70, {variants={"Multi", "CPPM"}})
     system.registerMultimoduleProtocol("E010R5", 81)
