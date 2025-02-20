@@ -22,7 +22,7 @@ Dotykem na graf kanálu (nebo skrolováním a stiskem ENTER) upravte křivku vyv
 
 ![Magnet](FLASH:/bitmaps/system/icon_magnet.png) Je-li vybrána tato funkce, automaticky se vybere nejbližší bod křivky na ose X, který lze dále upravit pomocí otočného ovladače. Pokud je funkce odznačena, lze bod křivky, který má být upraven, vybrat pomocí kláves „SYS“ a „DISP“. Před provedením nastavení je nutné nastavit vstup tak, aby se hodnota X zarovnala s bodem křivky, který chcete upravit.
 
-![Lock](FLASH:/bitmaps/system/icon_lock.png) Stisknutím klávesy ENTER v režimu úprav grafu zapnete a vypnete režim uzamčení. Když je režim zapnutý, všechny vstupy se v dané poloze, takže můžete uvolnit vstupní páku, což vám umožní sledovat řídicí plochy při úpravě křivky.
+![Lock](FLASH:/bitmaps/system/icon_lock.png) Stisknutím klávesy ENTER v režimu úprav grafu zapnete a vypnete režim uzamčení. Když je režim zapnutý, všechny vstupy se v dané poloze uzamknou, takže můžete uvolnit vstupní páku, což vám umožní sledovat řídicí plochy při úpravě křivky.
 
 ![Settings](FLASH:/bitmaps/system/icon_system.png) Otevře dialogové okno konfigurace vybraných kanálů. Je možné upravit počet bodů všech křivek, nebo jen některých, a zvolit, zda budou vyhlazeny, nebo ne.
 
