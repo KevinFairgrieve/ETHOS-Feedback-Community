@@ -1,4 +1,4 @@
-local LUA_VERSION = "3.0.3.1";
+local LUA_VERSION = "3.0.3.2";
 
 TEST = false
 GlobalPath = ""
@@ -45,6 +45,7 @@ local MAX_TIMEOUT = 10
 
 local supportFields = nil
 
+local createNeeded = false
 local createFunction = nil
 
 local file = nil
@@ -60,7 +61,7 @@ local FIRST_ADDRESS = 0xA5
 local LAST_ADDRESS = 0xD2
 local backupAddress = FIRST_ADDRESS
 local fileSize = nil
-local line = nil
+local fileLine = nil
 local loadSize = nil
 local function isAddressSupportBackup(address)
   return (address >= 0xA5 and address <= 0xB1)
@@ -144,6 +145,9 @@ end
 
 local restoreFileName = ""
 local function buildBackupForm(ePanel, focusRefresh)
+  if ePanel == nil then
+    return
+  end
   ePanel:clear()
 
   local ePanelLine = ePanel:addLine("")
@@ -159,7 +163,7 @@ local function buildBackupForm(ePanel, focusRefresh)
     print("Load pressed")
     file = nil
     fileSize = nil
-    line = nil
+    fileLine = nil
     loadSize = 0
     if not restoreFileName or restoreFileName == "" then
       Dialog.openDialog({title = STR("NoFileSelected"), message = STR("SelectFileFirstly"), buttons = {{label = STR("OK"), action = function () Dialog.closeDialog() end}},})
@@ -195,11 +199,11 @@ local function buildBackupForm(ePanel, focusRefresh)
         Progress.clearDialog()
       end, wakeup = function ()
         if saveLoadState == LOAD_STATE_READ then
-          line = file:read("l")
+          fileLine = file:read("l")
           saveLoadState = LOAD_STATE_WRITE
 
         elseif saveLoadState == LOAD_STATE_WRITE then
-          if line == nil then
+          if fileLine == nil then
             saveLoadState = LOAD_STATE_FINISH
             Progress.message(STR("ConfigFileLoaded", {name = '\n' .. restoreFileName}))
             Progress.value(100)
@@ -207,7 +211,7 @@ local function buildBackupForm(ePanel, focusRefresh)
           end
 
           local lineData = {}
-          for value in line:gmatch("([^,]+)") do
+          for value in fileLine:gmatch("([^,]+)") do
             lineData[#lineData + 1] = tonumber(value)
             if #lineData >= 2 then
               break
@@ -216,7 +220,7 @@ local function buildBackupForm(ePanel, focusRefresh)
           if lineData[1] ~= nil and lineData[2] ~= nil and Sensor.writeParameter(lineData[1], lineData[2]) then
             print("Sensor.writeParameter: " .. string.format("%X", lineData[1]) .. ", value: ", string.format("%X", lineData[2]))
             saveLoadState = LOAD_STATE_READ
-            loadSize = loadSize + #line + 1
+            loadSize = loadSize + #fileLine + 1
             local progress
             if fileSize then
               progress = math.ceil(loadSize * 100 / fileSize)
@@ -226,7 +230,7 @@ local function buildBackupForm(ePanel, focusRefresh)
             end
             Progress.message(STR("LoadingConfigurations", {progress = "" .. progress}))
             Progress.value(progress)
-            line = nil
+            fileLine = nil
           end
         end
       end})
@@ -465,7 +469,7 @@ createFunction = function ()
   line = form.addLine(STR("Module"))
   form.addChoiceField(line, nil, {{STR("Internal"), Module.INTERNAL_MODULE}, {STR("External"), Module.EXTERNAL_MODULE}}, function() return Module.CurrentModule end, function(value)
     Sensor.setModule(value)
-    taskInit()
+    createNeeded = true
   end)
 
   if TEST then
@@ -475,6 +479,12 @@ createFunction = function ()
 end
 
 local function wakeup()
+  if createNeeded then
+    if createFunction ~= nil then
+      createFunction()
+    end
+    createNeeded = false
+  end
   if currentPage ~= nil then
     if getPage(currentPage).wakeup ~= nil then
       getPage(currentPage).wakeup()
