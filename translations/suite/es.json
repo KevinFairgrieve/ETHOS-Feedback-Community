@@ -323,7 +323,7 @@
         "AnalysingComponents": "Analizando componentes...",
         "BackupNotMatchRadio": "Este backup no pertenece a su radio. ¿Quiere continuar?",
         "WritingBackupFile": "Escribiendo archivo backup...",
-        "CreateAtVersion": "Crear en la version"
+        "CreateAtVersion": "Creado con version"
     },
     "About": {
         "About": "Acerca de",
