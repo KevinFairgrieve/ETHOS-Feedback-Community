@@ -90,9 +90,10 @@ class BaseGenerator:
             extra_args.extend(["tempo", str(tempo)])
         if norm:
             extra_args.append("norm")
-        # silence breaks french pack (cinq is played "sein")    
-        # if silence:
+        # removing the end silence breaks french pack (cinq is played "sein")    
+        if silence:
         #     extra_args.extend(["silence", "1", "0.1", "1%", "reverse", "silence", "1", "0.1", "1%", "reverse"])
+            extra_args.extend(["silence", "1", "0.1", "1%"])
         tfm.build(input, output, extra_args=extra_args)
 
 
