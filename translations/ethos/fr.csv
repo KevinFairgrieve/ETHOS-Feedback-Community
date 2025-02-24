@@ -569,7 +569,7 @@ OFTEN,,"Fréquent",
 ALWAYS,,"Toujours",
 NEVER,,"Jamais",
 WHEN_TELEMETRY_STREAMING,,"Pendant flux télémétrie",
-VOICE1,,"Voix 1 (Princ.)",
+VOICE1,,"Voix 1 (Principale)","Voix 1 (Princ.)"
 VOICE2,,"Voix 2",
 VOICE3,,"Voix 3",
 AUDIO_VOLUME,,"Volume",
