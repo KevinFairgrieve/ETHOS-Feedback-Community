@@ -90,8 +90,9 @@ class BaseGenerator:
             extra_args.extend(["tempo", str(tempo)])
         if norm:
             extra_args.append("norm")
-        if silence:
-            extra_args.extend(["silence", "1", "0.05", "1%", "reverse", "silence", "1", "0.05", "1%", "reverse"])
+        # silence breaks french pack (cinq is played "sein")    
+        # if silence:
+        #     extra_args.extend(["silence", "1", "0.1", "1%", "reverse", "silence", "1", "0.1", "1%", "reverse"])
         tfm.build(input, output, extra_args=extra_args)
 
 
@@ -110,11 +111,14 @@ class GoogleCloudTextToSpeechGenerator(BaseGenerator):
 
     def build(self, path, text, options):
         print(path, repr(text), options)
+        if os.path.exists(path):
+            os.unlink(path)
         response = self.client.synthesize_speech(
             input=texttospeech.SynthesisInput(text=text),
             voice=self.voice,
             audio_config=texttospeech.AudioConfig(
                 audio_encoding=texttospeech.AudioEncoding.LINEAR16,
+                effects_profile_id=["small-bluetooth-speaker-class-device"],
                 sample_rate_hertz=16000,
                 speaking_rate=self.speed * float(options.get("speed", 1.0))
             )
@@ -145,6 +149,7 @@ def build(engine, voice, speed, csv, cache, only_missing=False, recreate_cache=F
         else:
             generator.build(path, text, options)
             cache.push(path, text, options)
+
 
     return 0
 
