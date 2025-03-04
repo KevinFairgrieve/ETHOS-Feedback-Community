@@ -95,7 +95,7 @@ return {
 
   ConfirmToBegin = "Si prega di confermare per iniziare",
 
-  ConfirmReset = "Confirma reset",
+  ConfirmReset = "Conferma reset",
   ResetLabel = "I settaggi stanno per essere resettati.\nSi prega di confermare per continuare.",
   Stabilizer = "Stabilizzatore",
   QuickMode = "Modo Veloce",
