@@ -5,6 +5,7 @@ import argparse
 import csv
 import codecs
 import hashlib
+import json
 import os
 import shutil
 import sys
@@ -21,7 +22,12 @@ except:
     sys.exit(1)
 
 
+TOOLS_DIR = os.path.dirname(os.path.realpath(__file__))
+AUDIO_DIR = os.path.abspath(os.path.join(TOOLS_DIR, "../audio"))
+
+
 def extract_csv(path):
+    print("Reading CSV file %s..." % path)
     result = []
     filenames = set()
     with codecs.open(path, "r", "utf-8") as f:
@@ -66,38 +72,33 @@ class PromptsCache:
             os.makedirs(directory)
 
     def path(self, text, options):
-        text_hash = hashlib.md5((text + str(options)).encode()).hexdigest()
+        text_hash = hashlib.md5((text + str(options)).encode()).hexdigest() + ".wav"
         return os.path.join(self.directory, text_hash)
 
-    def get(self, filename, text, options):
+    def get(self, text, options):
         cache = self.path(text, options)
-        if not os.path.exists(cache):
-            return False
-        shutil.copy(cache, filename)
-        return True
+        return cache if os.path.exists(cache) else None
 
     def push(self, filename, text, options):
         shutil.copy(filename, self.path(text, options))
 
 
-class BaseGenerator:
-    @staticmethod
-    def sox(input, output, tempo=None, norm=False, silence=False):
-        tfm = sox.Transformer()
-        tfm.set_output_format(channels=1, rate=16000, encoding="a-law")
-        extra_args = []
-        if tempo:
-            extra_args.extend(["tempo", str(tempo)])
-        if norm:
-            extra_args.append("norm")
-        # removing the end silence breaks french pack (cinq is played "sein")    
-        if silence:
-        #     extra_args.extend(["silence", "1", "0.1", "1%", "reverse", "silence", "1", "0.1", "1%", "reverse"])
-            extra_args.extend(["silence", "1", "0.1", "1%"])
-        tfm.build(input, output, extra_args=extra_args)
+def encode(input, output, tempo=None, norm=False, silence=False):
+    tfm = sox.Transformer()
+    tfm.set_output_format(channels=1, rate=16000, encoding="a-law")
+    extra_args = []
+    if tempo:
+        extra_args.extend(["tempo", str(tempo)])
+    if norm:
+        extra_args.append("norm")
+    if silence:
+        extra_args.extend(silence)
+    if os.path.exists(output):
+        os.unlink(output)
+    tfm.build(input, output, extra_args=extra_args)
 
 
-class GoogleCloudTextToSpeechGenerator(BaseGenerator):
+class GoogleCloudTextToSpeechGenerator:
     def __init__(self, voice, speed):
         self.voice_code = voice
         self.speed = speed
@@ -111,7 +112,7 @@ class GoogleCloudTextToSpeechGenerator(BaseGenerator):
         return "google-%s-%r" % (self.voice_code, self.speed)
 
     def build(self, path, text, options):
-        print(path, repr(text), options)
+        print("  Google TTS:", repr(text))
         if os.path.exists(path):
             os.unlink(path)
         response = self.client.synthesize_speech(
@@ -124,15 +125,11 @@ class GoogleCloudTextToSpeechGenerator(BaseGenerator):
                 speaking_rate=self.speed * float(options.get("speed", 1.0))
             )
         )
-        temp_path = tempfile.mkdtemp()
-        tts_output = os.path.join(temp_path, "output.wav")
-        with open(tts_output, "wb") as out:
+        with open(path, "wb") as out:
             out.write(response.audio_content)
-        self.sox(tts_output, path, silence=True)
-        shutil.rmtree(temp_path)
 
 
-def build(engine, voice, speed, csv, cache, only_missing=False, recreate_cache=False):
+def build(engine, voice, speed, silence, csv, cache=None, only_missing=False, recreate_cache=False):
     if engine == "google":
         generator = GoogleCloudTextToSpeechGenerator(voice, speed)
     else:
@@ -145,12 +142,19 @@ def build(engine, voice, speed, csv, cache, only_missing=False, recreate_cache=F
     for path, text, options, _ in prompts:
         if only_missing and os.path.exists(path):
             continue
-        elif cache and not recreate_cache and cache.get(path, text, options):
-            continue
-        else:
-            generator.build(path, text, options)
-            cache.push(path, text, options)
-
+        print("[%s]" % path)
+        if cache and not recreate_cache:
+            tts_output = cache.get(text, options)
+            if tts_output:
+                print("  in cache")
+                encode(tts_output, path, silence=silence)
+                continue
+        temp_path = tempfile.mkdtemp()
+        tts_output = os.path.join(temp_path, "output.wav")
+        generator.build(tts_output, text, options)
+        cache.push(tts_output, text, options)
+        encode(tts_output, path, silence=silence)
+        shutil.rmtree(temp_path)
 
     return 0
 
@@ -159,18 +163,24 @@ def main():
     if sys.version_info < (3, 0, 0):
         print("%s requires Python 3. Terminating." % __file__)
         return 1
-
-    parser = argparse.ArgumentParser(description="Builder for Ethos audio files")
-    parser.add_argument('--csv', action="store", help="CSV input file", required=True)
-    parser.add_argument('--engine', action="store", help="TTS engine", default="gtts")
-    parser.add_argument('--voice', action="store", help="TTS language", required=True)
-    parser.add_argument('--cache', action="store", help="TTS files cache")
+    
+    parser = argparse.ArgumentParser(description="Build Ethos audio packs")
+    parser.add_argument("-p", "--packs", action="append", help="packs", required=True)
     parser.add_argument('--recreate-cache', action="store_true", help="Recreate files cache")
-    parser.add_argument('--only-missing', action="store_true", help="Generate only missing files")
-    parser.add_argument('--speed', type=float, help="Voice speed", default=1.0)
     args = parser.parse_args()
 
-    return build(args.engine, args.voice, args.speed, args.csv, args.cache, args.only_missing, args.recreate_cache)
+    packs = json.loads(open('audio_packs.json').read())
+    for key in (packs.keys() if "ALL" in args.packs else args.packs):
+        if key not in packs.keys():
+            print("Unknown pack %s, supported packs: %r" % (key, list(packs.keys())))
+            exit(-1)
+
+        language = key.split('/')[0]
+        os.makedirs(os.path.join(AUDIO_DIR, key, "system"), exist_ok=True)
+        os.chdir(os.path.join(AUDIO_DIR, key))
+        pack = packs[key]
+        csv = os.path.join(AUDIO_DIR, language, "%s.csv" % language)
+        build(pack["engine"], pack["voice"], pack.get("speed", 1.0), pack.get("silence", False), csv, "/var/cache/ethos", only_missing=False, recreate_cache=args.recreate_cache)
 
 
 if __name__ == "__main__":
