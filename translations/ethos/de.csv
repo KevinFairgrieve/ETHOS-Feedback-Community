@@ -1131,3 +1131,4 @@ WAITING_FOR_NFC_CARD,,"Bitte halten Sie die NFC-Karte zum Binden nahe an die NFC
 BIND_CARD_SUCCESS,,"NFC-Karte erfolgreich gebunden!"
 BIND_CARD_FAIL,,"NFC-Karte wurde nicht gebunden!"
 BUS_INVERT,,F.Bus und F.Port beim Empfänger invertiert (Ja / Nein),"Bus beim RX invertieren"
+SBEC_INPUT_VOLT,"None","SBEC input volt."
