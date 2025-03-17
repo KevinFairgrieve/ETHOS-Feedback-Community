@@ -133,7 +133,12 @@ local function pageInit()
   gyroModeCheck = hasBasicConfiguration() and GYRO_MODE_CHECK_REQUEST or GYRO_MODE_CHECK_PASS
 
   local line = form.addLine("", nil, false)
-  caliButton = form.addTextButton(line, nil, STR("Calibrate"), function() doCalibrate() end)
+  local rect = form.getFieldSlots(line, {STR("NoArrowHint"), "- ? -", "- "..STR("Calibrate").." -"})
+  form.addStaticText(line, rect[1], STR("NoArrowHint"))
+  form.addTextButton(line, rect[2], "?", function()
+    Dialog.openDialog({title = STR("NoArrowHint"), message = STR("FindAnArrow"), buttons = {{label = STR("OK"), action = function () Dialog.closeDialog() end}}})
+  end)
+  caliButton = form.addTextButton(line, rect[3], STR("Calibrate"), function() doCalibrate() end)
   caliButton:enable(gyroModeCheck == GYRO_MODE_CHECK_PASS)
 
   bitmap = lcd.loadBitmap(getCaliBitmapPath())

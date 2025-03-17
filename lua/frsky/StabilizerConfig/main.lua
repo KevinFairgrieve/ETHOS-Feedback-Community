@@ -344,7 +344,7 @@ local function buildpage()
   buildBackupForm(configureForm)
 
   for index, page in pairs(pages) do
-    for i, supportField in pairs(Product.supportFields) do
+    for _, supportField in pairs(Product.supportFields) do
       if supportField == index then
         if page.name ~= nil then
           local line = form.addLine(page.name)
@@ -414,9 +414,9 @@ end
 local function checkNextTask()
   local allPass = true
   if TEST then
-    Product.supportFields = {1, 2, 3, 4}
+    Product.supportFields = {2, 3, 4}
     Product.family = 2
-    Product.id = 79
+    Product.id = 68
   end
 
   for i, task in pairs(tasks) do
