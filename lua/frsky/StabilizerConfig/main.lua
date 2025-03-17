@@ -1,4 +1,4 @@
-local LUA_VERSION = "3.0.5";
+local LUA_VERSION = "3.0.6";
 
 TEST = false
 GlobalPath = ""

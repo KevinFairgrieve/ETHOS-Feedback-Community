@@ -134,7 +134,7 @@ local function pageInit()
 
   local line = form.addLine("", nil, false)
   caliButton = form.addTextButton(line, nil, STR("Calibrate"), function() doCalibrate() end)
-  caliButton:enable(false)
+  caliButton:enable(gyroModeCheck == GYRO_MODE_CHECK_PASS)
 
   bitmap = lcd.loadBitmap(getCaliBitmapPath())
 end
