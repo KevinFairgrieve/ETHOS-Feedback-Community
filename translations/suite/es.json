@@ -156,7 +156,7 @@
         "ProductAssets": "Elementos de Productos"
     },
     "VersionTag": {
-        "MissingRemoteVersion": "No se encuentra la versión remota",
+        "FetchingFromServer": "Fetching from the server ...",
         "NoCurrentVersion": "No hay actualizaciones más recientes",
         "OutOfDate": "Disponible nueva versión",
         "GreaterThanLatestRelease": "Superior a la versión actual",

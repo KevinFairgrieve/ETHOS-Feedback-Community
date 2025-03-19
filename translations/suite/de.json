@@ -160,7 +160,7 @@
         "ProductAssets": "Produkteigenschaften"
     },
     "VersionTag": {
-        "MissingRemoteVersion": "Fehlende gespeicherte Version",
+        "FetchingFromServer": "Fetching from the server ...",
         "NoCurrentVersion": "Keine aktuelle Version",
         "OutOfDate": "veraltet",
         "GreaterThanLatestRelease": "Größer als die letzte Version",

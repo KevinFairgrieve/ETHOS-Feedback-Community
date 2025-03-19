@@ -160,7 +160,7 @@
         "ProductAssets": "Assets Prodotti"
     },
     "VersionTag": {
-        "MissingRemoteVersion": "Versione remota mancante",
+        "FetchingFromServer": "Fetching from the server ...",
         "NoCurrentVersion": "No versione corrente",
         "OutOfDate": "Obsoleta",
         "GreaterThanLatestRelease": "Piu recente di questa release",

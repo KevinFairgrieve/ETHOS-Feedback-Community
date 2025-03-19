@@ -159,7 +159,7 @@
         "ProductAssets": "Product assets"
     },
     "VersionTag": {
-        "MissingRemoteVersion": "Chybí vzdálená verze",
+        "FetchingFromServer": "Fetching from the server ...",
         "NoCurrentVersion": "Žádná aktuální verze",
         "OutOfDate": "Zastaralý",
         "GreaterThanLatestRelease": "Vyšší než poslední verze",
