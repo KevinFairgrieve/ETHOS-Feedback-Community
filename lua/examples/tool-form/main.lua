@@ -154,7 +154,7 @@ local function wakeup(data)
 end
 
 local function event(data, category, value, x, y)
-    print("Event received:", category, value, x, y, KEY_EXIT_BREAK)
+    print("Event received:", category, value, x, y)
     return false
 end
 
