@@ -28,7 +28,7 @@ return {
   Disable = "Deaktiviert",
   Enable = "Aktiviert",
   Back = "Zurück",
-  Open = "Offen",
+  Open = "Öffnen",
   OK = "OK",
   Reset = "Zurücksetzen",
 
