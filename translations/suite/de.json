@@ -8,7 +8,7 @@
         "NewVersionAvailable": "Eine neue Version von Ethos Suite ist verfügbar. Möchten Sie das Installationsprogramm herunterladen?",
         "DownloadingLatestInstaller": "Aktuelles Installationsprogramm herunterladen",
         "InstallerHasBeenDownloaded": "Das neueste Installationsprogramm wurde erfolgreich heruntergeladen. Bestätigen Sie, dass Sie die Installation jetzt ausführen möchten?",
-        "VerifyingInstallation": "Überprüfung der Installation ...",
+        "VerifyingInstallation": "Überprüfung der Installation...",
         "NoUpdateAvailable": "Kein Update verfügbar. Sie verwenden eine aktuelle Version"
     },
     "FirstUseGuide": {
@@ -77,7 +77,7 @@
         "MissingDiskError": "Fehlendes Laufwerk!",
         "CannotReadModuleInfo": "Informationen zum internen Modul können nicht abgerufen werden",
         "WaitingDisk": "Warten auf Laufwerk...",
-        "WaitingModuleInfo": "Warten auf Modulinformationen ...",
+        "WaitingModuleInfo": "Warten auf Modulinformationen...",
         "AbortedWithUnknownStatus": "Vorgang mit unbekanntem Status abgebrochen",
         "ReceiveFailStatus": "Vorgang fehlgeschlagen. Der Sender hat einen Fehler gemeldet!",
         "RadioNoResponse": "Der Vorgang wurde abgebrochen. Der Sender antwortet nicht.",
@@ -89,7 +89,7 @@
         "Language": "Sprache",
         "PathNotExists": "Pfad existiert nicht",
         "DestinationPathNotExists": "Der Zielpfad existiert nicht!",
-        "RefreshingRadioInformation": "Auffrischen der Sender-Informationen ...",
+        "RefreshingRadioInformation": "Auffrischen der Sender-Informationen...",
         "ModuleVersion": "Modul-Version:",
         "VideoComponentVersion": "Video-Komponenten-Version:",
         "RefreshRadioInfo": "Aktualisieren der Sender-Infos.",
@@ -131,7 +131,7 @@
         "DFUNotDetected": "DFU-Gerät nicht erkannt"
     },
     "DownloadCenter": {
-        "DownloadCenter": "Software Bereich",
+        "DownloadCenter": "Software-Bereich",
         "FlashLocalFRSK": "Flashe lokale .frsk",
         "SelectFRSK": ".frsk auswählen",
         "FileInfo": "Datei Info:",
@@ -148,8 +148,8 @@
         "FRSKNotMatchComponent": "Diese .frsk-Datei ist nicht für Ihre Hardware geeignet. Der Vorgang wurde abgebrochen!",
         "FlashFRSKWithoutHardwareInfo": "Wir können die Informationen über Ihre Hardware nicht erhalten. Daher können wir nicht feststellen, ob diese .frsk-Datei für Ihre Hardware geeignet ist oder nicht. Möchten Sie das Flashen fortsetzen?",
         "DownloadMoreFirmware": "Weitere Firmware herunterladen",
-        "SensorFirmware": "Sensor Firmware",
-        "ReceiverFirmware": "Empfänger Firmware",
+        "SensorFirmware": "Sensor-Firmware",
+        "ReceiverFirmware": "Empfänger-Firmware",
         "LuaScripts": "Lua scripts",
         "DownloadFirmware": "Download Firmware",
         "DownloadScripts": "Download Scripte",
@@ -165,10 +165,10 @@
         "OutOfDate": "veraltet",
         "GreaterThanLatestRelease": "Größer als die letzte Version",
         "UpToDate": "aktuell",
-        "Nightly": "Achtung! Nightly / Vorabversion"
+        "Nightly": "Achtung! Nightly/Vorabversion"
     },
     "ImageManager": {
-        "ImageManager": "Bilder Verwaltung",
+        "ImageManager": "Bilder-Verwaltung",
         "Transparent": "Transparent",
         "Resize": "Größe ändern",
         "MaxWidth": "Maximale Breite",
@@ -183,7 +183,7 @@
         "RightDirectory": "Ordner in rechter Spalte"
     },
     "AudioManager": {
-        "AudioManager": "Audio Verwaltung",
+        "AudioManager": "Audio-Verwaltung",
         "TranscodingAudios": "Umwandlung von Audiodateien...",
         "RadioAudios": "Audios im Sender"
     },
@@ -200,7 +200,7 @@
         "BootloaderNotSupport": "Dieser Vorgang unterstützt nur Bootloader, deren Version über 1.4.0 liegt. Bitte aktualisieren Sie Ihren Bootloader.",
         "FactorySettingTitle": "Wiederherstellen der Werkseinstellungen",
         "FactorySettingSubTitle": "Setzen Sie Ihren Sender auf die Werkseinstellungen zurück.",
-        "Restoring": "Wiederherstellung der Werkseinstellungen ...",
+        "Restoring": "Wiederherstellung der Werkseinstellungen...",
         "RestoreSucceed": "Wiederherstellung der Werkseinstellungen erfolgreich! Bitte starten Sie Ihren Sender neu."
     },
     "RadioInfo": {
@@ -220,9 +220,9 @@
     },
     "RadioTool": {
         "ComparedWithTheLatestStabVersion": "(Verglichen mit der letzten stabilen Version)",
-        "BootloaderMode": "Bootloader Modus",
-        "FirmwareVersion": "Firmware Version:",
-        "BootloaderVersion": "Bootloader Version:",
+        "BootloaderMode": "Bootloader-Modus",
+        "FirmwareVersion": "Firmware-Version:",
+        "BootloaderVersion": "Bootloader-Version:",
         "RadioInternalStorage": "Interner Sender-Speicher ({{ size }}):",
         "SDCard": "SD Karte ({{ size }}):",
         "Flash": "Flash ({{ size }}):",
@@ -231,7 +231,7 @@
         "SelectRelease": "Release auswählen",
         "LocalFile": "Lokale Datei",
         "SelectLocalFirmware": "Lokale Firmware auswählen",
-        "AudioLanguages": "Audio Sprachen",
+        "AudioLanguages": "Audio-Sprachen",
         "EjectDrives": "Laufwerke auswerfen",
         "SwitchToEthos": "Wechsel zu Ethos",
         "SwitchToBootloader": "Wechsel zu Bootloader",
@@ -246,9 +246,9 @@
         "UnmountingDrives": "Laufwerk ausschalten...",
         "WritingFirmware": "Firmware in den Flash Speicher schreiben...",
         "FirmwareFlashSuccess": "Firmware erfolgreich geflasht!",
-        "FirmwareFlashError": "Flash-Firmware Fehler!",
-        "DownloadingSystemFiles": "Herunterladen der Systemdateien ...",
-        "CopyingSystemFilesToRadio": "Kopieren von Systemdateien in den Sender ...",
+        "FirmwareFlashError": "Flash-Firmware, Fehler!",
+        "DownloadingSystemFiles": "Herunterladen der Systemdateien...",
+        "CopyingSystemFilesToRadio": "Kopieren von Systemdateien in den Sender...",
         "DownloadingAudioPack": "Herunterladen des {{ lang }} Audio-Paketes...",
         "CopyingAudioPackToRadio": "Kopiere {{ lang }} Audio-Paket in den Sender...",
         "UpdateSuccess": "Update erfolgreich",
@@ -256,7 +256,7 @@
         "DownloadingBootloader": "Downloaden des Bootloaders...",
         "CopyingBootloaderToRadio": "Kopiere Bootloader in den Sender...",
         "FlashingBootloader": "Flashing Bootloader...",
-        "BootloaderFlashError": "Flash Bootloader Fehler!",
+        "BootloaderFlashError": "Flash Bootloader, Fehler!",
         "VersionNotSupportedToStartFirmware": "Die Bootloader-Version unterstützt den Wechsel zur Firmware nicht!",
         "VersionNotSupportedToStartBootloader": "Die Firmware-Version unterstützt den Wechsel zum Bootloader nicht!",
         "OperationCancelled": "Vorgang wird abgebrochen!",
@@ -292,7 +292,7 @@
         "FlashModule": "Flashe Module"
     },
     "ModelTool": {
-        "ModelManager": "Modell Verwaltung",
+        "ModelManager": "Modell-Verwaltung",
         "BackupYourRadio": "Backup Sender",
         "BackupLocation": "Ort des Backup",
         "LastBackupTime": "Letzter Zeitpunkt der Sicherung",
@@ -307,7 +307,7 @@
         "Helicopter": "Hubschrauber",
         "Multicopter": "Multicopter",
         "Other": "Andere",
-        "FileName": "Datei Name",
+        "FileName": "Dateiname",
         "LastModifyTime": "Letzte Mod. Zeit",
         "SelectRestoreComponent": "Wählen Sie die Datei und die Komponenten aus, die Sie wiederherstellen möchten",
         "NoBackupFileFound": "Keine Sicherungsdatei gefunden",
@@ -344,9 +344,9 @@
         "TwoDots": ": "
     },
     "SuiteSettings": {
-        "SuiteSettings": "Suite Einstellungen",
+        "SuiteSettings": "Suite-Einstellungen",
         "ServerLocation": "Lokaler Server",
-        "FrSkyServer": "FrSky Server",
+        "FrSkyServer": "FrSky-Server",
         "Github": "Github",
         "PopupDialogWhenError": "Popup-Dialog beim Auftreten eines schwerwiegenden Fehlers",
         "OpenLogs": "Öffnen Sie den Protokollordner",
@@ -379,7 +379,7 @@
         "OpenWebpage": "Webseite öffnen",
         "OpenFAQ": "FAQ öffnen",
         "OpenManual": "Handbuch öffnen",
-        "LoadingManuals": "Handbücher laden ..."
+        "LoadingManuals": "Handbücher laden..."
     },
     "BootloaderGuide": {
         "BootloaderGuideTitle": "Ihre Firmware unterstützt möglicherweise keine automatische Umschaltung. Bitte wechseln Sie manuell zum Bootloader, indem Sie die folgenden Schritte ausführen",
@@ -415,7 +415,7 @@
         "NandBootloaderGuideStep4": "Wählen Sie den DFU-Flasher, wählen Sie die gerade heruntergeladene bootloader.frsk aus und klicken Sie auf \"Flash\""
     },
     "LanguageManager": {
-        "LanguageManager": "Sprachen Verwaltung",
+        "LanguageManager": "Sprachen-Verwaltung",
         "LanguageList": "Liste der Sprachen",
         "DownloadLocation": "Download-Speicherort",
         "RadioI18n": "Sender i18n-Ordner",
@@ -431,7 +431,7 @@
         "StartingDebug": "Starten des Debug-Modus ...",
         "OpenSerialPortFailed": "Serieller Port konnte nicht geöffnet werden. Bitte überprüfen Sie Ihren Treiber!",
         "StopDebug": "Stop debug",
-        "StoppingDebug": "Debug-Modus beenden ...",
+        "StoppingDebug": "Debug-Modus beenden...",
         "TimeStamp": "Zeitstempel",
         "ScrollToBottom": "Nach unten scrollen",
         "ClearOutput": "Ausgabe löschen",
@@ -442,28 +442,28 @@
         "LuaInstall": "Lua-Skripte installieren",
         "LuaInstallDescription": "Hilft Ihnen, Lua-Skripte aus einer ZIP-Datei auf Ihrem Sender zu installieren",
         "OpenZip": ".zip-Datei öffnen",
-        "AnalysingFiles": "Dateien analysieren  ...",
+        "AnalysingFiles": "Dateien analysieren...",
         "NoFileSelected": "Keine Datei ausgewählt!",
         "ScriptsInstalled": "Installierte Skripte",
         "ScriptsFound": "Folgende Skripte wurden gefunden",
         "SelectScriptsDescription": "Bitte wählen Sie das Skript aus, das Sie installieren möchten (der Name des Ordners, in dem sich das Skript befindet, ist der Name des Skripts)",
-        "InstallingScripts": "Installieren des Skriptes ...",
+        "InstallingScripts": "Installieren des Skriptes...",
         "ScriptsDirectoryNotFound": "Skriptordner nicht gefunden!",
         "FollowingScriptsFailToInstall": "Die Installation des folgenden Skriptes ist fehlgeschlagen",
         "NoScriptsFound": "In der ZIP-Datei wurde kein Skript gefunden!"
     },
     "LuaLib": {
         "LuaLib": "Lua-Bibliothek",
-        "DownloadingScript": "Skript herunterladen ...",
+        "DownloadingScript": "Skript herunterladen...",
         "ScriptNotFound": "Skript nicht gefunden!",
         "DownloadScriptSuccessfully": "Skript erfolgreich heruntergeladen!",
         "SavingScript": "Skript speichern ...",
-        "StartingInstallScripts": "Beginnen Sie mit der Installation des Skripts ...",
-        "StartingDownloadScripts": "Beginnen Sie mit dem Herunterladen des Skripts ...",
+        "StartingInstallScripts": "Beginnen Sie mit der Installation des Skripts...",
+        "StartingDownloadScripts": "Beginnen Sie mit dem Herunterladen des Skripts...",
         "AnalysingFile": "Analysieren der Datei ...",
         "FailToInstallScripts": "Die Installation des Skripts ist fehlgeschlagen!",
-        "WritingScriptsInfo": "Informationen zum Schreiben von Skripten ...",
-        "LoadingScriptsFromRadio": "Skripte vom Sender laden ...",
+        "WritingScriptsInfo": "Informationen zum Schreiben von Skripten...",
+        "LoadingScriptsFromRadio": "Skripte vom Sender laden...",
         "RemoteLibrary": "Remote-Bibliothek",
         "RadioScripts": "Senderskripte",
         "Install": "Installieren",
