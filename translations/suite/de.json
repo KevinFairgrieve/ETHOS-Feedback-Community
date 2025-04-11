@@ -104,7 +104,7 @@
         "SystemFiles": "System-Dateien",
         "Dismiss": "Abbrechen",
         "ShowPrereleases": "Vorab-Veröffentlichungen anzeigen",
-        "VisitThirdparty": "Visit thirdparty url",
+        "VisitThirdparty": "Besuchen Sie die Website Ihres Dritt-Anbieters",
         "PathInvalid": "Der ausgewählte Dateipfad enthält ungültige Zeichen und die Datei wurde aus der Liste entfernt"
     },
     "ChooseVideoVersion": {
@@ -285,7 +285,7 @@
         "ContinueUpdaing": "Aktualisierung fortsetzen"
     },
     "RFModule": {
-        "RFModule": "HF Module",
+        "RFModule": "HF-Module",
         "GoToEthosManage": "Zum Ethos Manager gehen",
         "ModuleFirmwareList": "Modul-Firmware-Liste",
         "FirmwareDetail": "Firmware Details",
