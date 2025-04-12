@@ -73,8 +73,8 @@ return {
   CaliSR6Step5 = "Positionner le SR6 ANT à droite, connecteurs face à vous.",
   CaliSR6Step6 = "Positionner le SR6 ANT à droite, connecteurs face opposée.",
 
-  CaliCommonStep1 = "Positionner le Rx Stab. horizontalement with the front facing up.",
-  CaliCommonStep2 = "Positionner le Rx Stab. horizontalement with the back facing up.",
+  CaliCommonStep1 = "Positionner le Rx Stab. horizontalement avant vers le haut.",
+  CaliCommonStep2 = "Positionner le Rx Stab. horizontalement arrière vers le haut.",
   CaliCommonStep3 = "Positionner le Rx Stab. verticalement, marquage vers la gauche.",
   CaliCommonStep4 = "Positionner le Rx Stab. verticalement, marquage vers la droite.",
   CaliCommonStep5 = "Positionner le Rx Stab. verticalement, marquage affiché normalement.",
