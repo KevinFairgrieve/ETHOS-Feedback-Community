@@ -330,7 +330,7 @@
         "AnalysingComponents": "Analyse des éléments ...",
         "BackupNotMatchRadio": "Cette sauvegarde ne correspond pas à votre radio. Continuer ?",
         "WritingBackupFile": "Ecriture sauvegarde en cours ...",
-        "CreateAtVersion": "Create at version"
+        "CreateAtVersion": "Créer avec la version"
     },
     "About": {
         "About": "A propos",
@@ -471,7 +471,7 @@
         "InstallLatest": "Installer dernière verison",
         "Reinstall": "Reinstaller",
         "ScriptInfo": "Information Script",
-        "TheEntireZip": "The entire zip file"
+        "TheEntireZip": "Le fichier ZIP complet"
     },
     "Updater": {
         "NewVersionAvailable": "Nouvelle version de Suite {{ version }} disponible !",
