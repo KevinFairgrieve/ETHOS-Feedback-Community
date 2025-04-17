@@ -1,11 +1,10 @@
 return {
-  ScriptName = "Nastavení stabilizace",
-
-  ScriptVersion = "Verze skriptu",
-  RemoteDevice = "Vzdálené zařízení",
-  RemoteVersion = "Verze zařízení",
-  UnsupportDevice = "Nepodporované zařízení",
-  UncompitableVersion = "Nekompatibilní verze",
+ScriptName = "Nastavení stabilizace",
+ScriptVersion = "Verze skriptu",
+RemoteDevice = "Vzdálené zařízení",
+RemoteVersion = "Verze zařízení",
+UnsupportDevice = "Nepodporované zařízení",
+UncompitableVersion = "Nekompatibilní verze",
 Reading = "Načítání ...",
 UnableToRead = "Nelze načíst",
 
@@ -123,3 +122,4 @@ RollDegree = "Úhel náklonu (roll)",
 PitchDegree = "Úhel náklonu (pitch)",
 CHStickPriority = "{{ CH }} priorita páčky",
 CHRevStickPriority = "{{ CH }} reverzní priorita páčky"
+}
