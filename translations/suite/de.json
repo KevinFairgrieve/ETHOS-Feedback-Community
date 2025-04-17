@@ -282,7 +282,8 @@
         "ConfirmBackup": "Bestätigung der Sicherung",
         "BackupOrContinueUpdate": "Es wird empfohlen, den Inhalt Ihres Sender zu sichern, bevor Sie ihn aktualisieren. Möchten Sie zur Sicherungsseite gehen oder die Aktualisierung fortsetzen?",
         "GoToBackup": "Zur Sicherungsseite gehen",
-        "ContinueUpdaing": "Aktualisierung fortsetzen"
+        "ContinueUpdaing": "Aktualisierung fortsetzen",
+        "CheckingComponentsVersion": "Checking components version ..."
     },
     "RFModule": {
         "RFModule": "HF-Modul",

@@ -275,7 +275,8 @@
         "ConfirmBackup": "Confirme backup",
         "BackupOrContinueUpdate": "Se recomienda hacer una copia de seguridad de su radio antes de actualizar. ¿Quiere ir a la página de backup, o continuar con la actualización?",
         "GoToBackup": "Vaya a la página de backup",
-        "ContinueUpdaing": "Continue actualizando"
+        "ContinueUpdaing": "Continue actualizando",
+        "CheckingComponentsVersion": "Checking components version ..."
     },
     "RFModule": {
         "RFModule": "Módulo de RF",

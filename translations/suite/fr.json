@@ -282,7 +282,8 @@
         "ConfirmBackup": "Confirmer sauvegarde ?",
         "BackupOrContinueUpdate": "Sauvegarde conseillée avant une mise à jour. Aller à la page de sauvegarde ou continuer ?",
         "GoToBackup": "Vers la page Sauvegarde",
-        "ContinueUpdaing": "Poursuivre la mise à jour"
+        "ContinueUpdaing": "Poursuivre la mise à jour",
+        "CheckingComponentsVersion": "Checking components version ..."
     },
     "RFModule": {
         "RFModule": "Module RF",

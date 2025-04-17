@@ -281,7 +281,8 @@
         "ConfirmBackup": "Conferma backup",
         "BackupOrContinueUpdate": "E' raccomandato di eseguire il backup del contenuto della radio prima di aggiornare. Vuoi andare alla pagina di backup o continuare aggiornamento?",
         "GoToBackup": "Vai alla pagina di backup",
-        "ContinueUpdaing": "Continua aggiornamento"
+        "ContinueUpdaing": "Continua aggiornamento",
+        "CheckingComponentsVersion": "Checking components version ..."
     },
     "RFModule": {
         "RFModule": "Modulo RF",
