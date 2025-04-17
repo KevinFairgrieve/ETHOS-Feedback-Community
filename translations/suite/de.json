@@ -283,7 +283,7 @@
         "BackupOrContinueUpdate": "Es wird empfohlen, den Inhalt Ihres Sender zu sichern, bevor Sie ihn aktualisieren. Möchten Sie zur Sicherungsseite gehen oder die Aktualisierung fortsetzen?",
         "GoToBackup": "Zur Sicherungsseite gehen",
         "ContinueUpdaing": "Aktualisierung fortsetzen",
-        "CheckingComponentsVersion": "Checking components version ..."
+        "CheckingComponentsVersion": "Komponentenversion überprüfen..."
     },
     "RFModule": {
         "RFModule": "HF-Modul",
