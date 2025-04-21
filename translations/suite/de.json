@@ -284,8 +284,8 @@
         "GoToBackup": "Zur Sicherungsseite gehen",
         "ContinueUpdaing": "Aktualisierung fortsetzen",
         "CheckingComponentsVersion": "Komponentenversion überprüfen...",
-        "ComponentsNeedToBeUpdated": "Components need to be updated",
-        "UpdateComponentToVersion": "Component {{ component }} needs to be updated to version {{ version }}"
+        "ComponentsNeedToBeUpdated": "Die Komponenten müssen aktualisiert werden.",
+        "UpdateComponentToVersion": "Die Komponente {{ component }} muss auf Version {{ version }} aktualisiert werden."
     },
     "RFModule": {
         "RFModule": "HF-Modul",
