@@ -282,7 +282,9 @@
         "BackupOrContinueUpdate": "E' raccomandato di eseguire il backup del contenuto della radio prima di aggiornare. Vuoi andare alla pagina di backup o continuare aggiornamento?",
         "GoToBackup": "Vai alla pagina di backup",
         "ContinueUpdaing": "Continua aggiornamento",
-        "CheckingComponentsVersion": "Controllo versione componenti ..."
+        "CheckingComponentsVersion": "Controllo versione componenti ...",
+        "ComponentsNeedToBeUpdated": "Components need to be updated",
+        "UpdateComponentToVersion": "Component {{ component }} needs to be updated to version {{ version }}"
     },
     "RFModule": {
         "RFModule": "Modulo RF",
