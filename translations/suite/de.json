@@ -508,6 +508,6 @@
         "Radio": "Sender"
     },
     "Simulator": {
-        "EthosSimulator": "Ethos simulator"
+        "EthosSimulator": "Ethos-Simulator"
     }
 }
