@@ -506,5 +506,8 @@
         "Sensors": "Sensoren",
         "VTX": "Video-Übertragungssysteme",
         "Radio": "Sender"
+    },
+    "Simulator": {
+        "EthosSimulator": "Ethos simulator"
     }
 }
