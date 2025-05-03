@@ -39,7 +39,7 @@
         "Firmware": "Firmware",
         "Version": "Version",
         "Size": "Größe",
-        "ReleaseDate": "Veröffentlicht am:",
+        "ReleaseDate": "Veröffentlicht am",
         "Detail": "Details",
         "DownloadFailed": "Download fehlgeschlagen!",
         "AssetError": "Asset-Fehler!",
