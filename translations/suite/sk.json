@@ -508,6 +508,12 @@
         "Radio": "Rádio"
     },
     "Simulator": {
-        "EthosSimulator": "Ethos simulator"
+        "EthosSimulator": "Ethos simulator",
+        "Radio": "Radio",
+        "Release": "Release",
+        "Protocol": "Protocol",
+        "StartSim": "Start simulator",
+        "NoSupportedSim": "No supported simulator found",
+        "DownloadingSimulator": "Downloading simulator ..."
     }
 }
