@@ -509,11 +509,11 @@
     },
     "Simulator": {
         "EthosSimulator": "Ethos-Simulator",
-        "Radio": "Radio",
-        "Release": "Release",
-        "Protocol": "Protocol",
-        "StartSim": "Start simulator",
-        "NoSupportedSim": "No supported simulator found",
-        "DownloadingSimulator": "Downloading simulator ..."
+        "Radio": "Sender",
+        "Release": "Version",
+        "Protocol": "Protokoll",
+        "StartSim": "Simulator starten",
+        "NoSupportedSim": "Kein unterstützter Simulator gefunden",
+        "DownloadingSimulator": "Simulator herunterladen..."
     }
 }
