@@ -508,12 +508,12 @@
         "Radio": "Rádio"
     },
     "Simulator": {
-        "EthosSimulator": "Ethos simulator",
-        "Radio": "Radio",
-        "Release": "Release",
-        "Protocol": "Protocol",
-        "StartSim": "Start simulator",
-        "NoSupportedSim": "No supported simulator found",
-        "DownloadingSimulator": "Downloading simulator ..."
+        "EthosSimulator": "Ethos simulátor",
+        "Radio": "Rádio",
+        "Release": "Vydanie",
+        "Protocol": "Protokol",
+        "StartSim": "Štart simulátora",
+        "NoSupportedSim": "Žiadny podporovaný simulátor nebol nájdený",
+        "DownloadingSimulator": "Sťahovanie simulátora ..."
     }
 }
