@@ -169,7 +169,7 @@ def main():
     parser.add_argument('--recreate-cache', action="store_true", help="Recreate files cache")
     args = parser.parse_args()
 
-    packs = json.loads(open('audio_packs.json').read())
+    packs = json.loads(open(TOOLS_DIR + '/audio_packs.json').read())
     for key in (packs.keys() if "ALL" in args.packs else args.packs):
         if key not in packs.keys():
             print("Unknown pack %s, supported packs: %r" % (key, list(packs.keys())))

@@ -26,6 +26,11 @@
         "voice": "en-US-Wavenet-F",
         "silence": ["reverse", "silence", "1", "0.1", "0.1%", "reverse"]
     },
+    "en/default": {
+        "engine": "google",
+        "voice": "en-US-Wavenet-F",
+        "silence": ["reverse", "silence", "1", "0.1", "0.1%", "reverse"]
+    },
     "es/default": {
         "engine": "google",
         "voice": "es-ES-Wavenet-C",
