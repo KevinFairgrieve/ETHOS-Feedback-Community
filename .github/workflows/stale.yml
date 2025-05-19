@@ -16,4 +16,8 @@ jobs:
           operations-per-run: 100
           exempt-all-milestones: true
           exempt-all-assignees: true
-          exempt-issue-labels: enhancement, bug, hardware, bluetooth, rf, documentation, translations
+          only-labels:
+            - 'information needed'
+          exempt-issue-labels:
+            - 'type: Bug'
+            - 'type: Feature'
