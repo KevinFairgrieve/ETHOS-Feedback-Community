@@ -1,5 +1,5 @@
 return {
-ScriptName = "Nastavení stabilizace",
+ScriptName = "NastStab",
 ScriptVersion = "Verze skriptu",
 RemoteDevice = "Vzdálené zařízení",
 RemoteVersion = "Verze zařízení",
