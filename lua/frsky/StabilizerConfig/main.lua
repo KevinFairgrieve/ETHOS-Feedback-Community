@@ -1,6 +1,6 @@
 local LUA_VERSION = "3.0.7";
 
-TEST = true
+TEST = false
 GlobalPath = ""
 
 local REMOTE_VERSION_CONSTRAINT = function (major, minor, revision)
