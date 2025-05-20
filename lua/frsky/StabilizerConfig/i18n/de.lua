@@ -79,8 +79,8 @@ return {
   CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
   CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
   CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
-  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
-  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
+  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
+  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
 
   CaliFinished = "Kalibrierung beendet. Sie können diese Seite jetzt verlassen",
 
