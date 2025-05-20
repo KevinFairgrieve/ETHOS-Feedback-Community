@@ -160,8 +160,8 @@
         "ProductAssets": "Assets Prodotti"
     },
     "VersionTag": {
-        "MissingRemoteVersion": "Versione remota mancante",
-        "NoCurrentVersion": "No versione corrente",
+        "FetchingFromServer": "Recupero dal server ...",
+        "NoCurrentVersion": "Nessuna versione corrente",
         "OutOfDate": "Obsoleta",
         "GreaterThanLatestRelease": "Piu recente di questa release",
         "UpToDate": "Aggiornata",
@@ -275,13 +275,16 @@
         "LastUpdatedAt": "Ultimo aggiornamento del",
         "TestingVersion": "Versione di Test",
         "GoToModuleManager": "Vai al manager modulo",
-        "GoToDownloadCenter": "Vai al download center",
+        "GoToDownloadCenter": "Vai al centro download",
         "LatestBootloaderRequired": "Ultimo bootloader richiesto!",
         "ConfirmUpdateBootloaderFirstly": "Il Firmware di questa release richiede l'aggiornamento del bootloader. O la radio non funzionerà correttamente. Confermi l'aggiornamento del bootloader per prima cosa?",
         "ConfirmBackup": "Conferma backup",
         "BackupOrContinueUpdate": "E' raccomandato di eseguire il backup del contenuto della radio prima di aggiornare. Vuoi andare alla pagina di backup o continuare aggiornamento?",
         "GoToBackup": "Vai alla pagina di backup",
-        "ContinueUpdaing": "Continua aggiornamento"
+        "ContinueUpdaing": "Continua aggiornamento",
+        "CheckingComponentsVersion": "Controllo versione componenti ...",
+        "ComponentsNeedToBeUpdated": "I componenti necessitano aggiornamento",
+        "UpdateComponentToVersion": "Componente {{ component }} deve essere aggiornato alla versione {{ version }}"
     },
     "RFModule": {
         "RFModule": "Modulo RF",
@@ -502,5 +505,14 @@
         "Sensors": "Sensori",
         "VTX": "VTX",
         "Radio": "Radio"
+    },
+    "Simulator": {
+        "EthosSimulator": "Simulatore Ethos",
+        "Radio": "Radio",
+        "Release": "Versione",
+        "Protocol": "Protocollo",
+        "StartSim": "Avvia simulatore",
+        "NoSupportedSim": "Nessun simulatore supportato trovato",
+        "DownloadingSimulator": "Scarico simulatore ..."
     }
 }

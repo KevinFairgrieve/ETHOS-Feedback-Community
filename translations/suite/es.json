@@ -156,7 +156,7 @@
         "ProductAssets": "Elementos de Productos"
     },
     "VersionTag": {
-        "MissingRemoteVersion": "No se encuentra la versión remota",
+        "FetchingFromServer": "Obteniendo desde el servidor ...",
         "NoCurrentVersion": "No hay actualizaciones más recientes",
         "OutOfDate": "Disponible nueva versión",
         "GreaterThanLatestRelease": "Superior a la versión actual",
@@ -210,10 +210,10 @@
         "MissingRequiredComponentVersion": "Faltan componentes necesarios para esta versión",
         "TargetFirmwareNotCompatible": "Los componentes {{ targetComponent }} de esta versión de firmware {{ targetVersion }} necesitan usarse con {{ requireComponent }} version de firmware {{ requireVersion }}.",
         "RequireUpdate": "Por favor, actualice primero los {{ requireComponent }} del firmware a la versión {{ requireVersion }}.",
-        "CheckRxVersion": "POr favor, asegúrese de que el firmware de los receptores que usa con este módulo están también actualizados a la versión {{ version }} o superior."
+        "CheckRxVersion": "Por favor, asegúrese de que el firmware de los receptores que usa con este módulo están también actualizados a la versión {{ version }} o superior."
     },
     "RadioTool": {
-        "ComparedWithTheLatestStabVersion": "(Comparando con la última versión estable)",
+        "ComparedWithTheLatestStabVersion": "Comparando con la última versión estable",
         "BootloaderMode": "Modo bootloader",
         "FirmwareVersion": "Versión del firmware:",
         "BootloaderVersion": "Versión del Bootloader:",
@@ -275,7 +275,10 @@
         "ConfirmBackup": "Confirme backup",
         "BackupOrContinueUpdate": "Se recomienda hacer una copia de seguridad de su radio antes de actualizar. ¿Quiere ir a la página de backup, o continuar con la actualización?",
         "GoToBackup": "Vaya a la página de backup",
-        "ContinueUpdaing": "Continue actualizando"
+        "ContinueUpdaing": "Continue actualizando",
+        "CheckingComponentsVersion": "Checking components version ...",
+        "ComponentsNeedToBeUpdated": "Components need to be updated",
+        "UpdateComponentToVersion": "Component {{ component }} needs to be updated to version {{ version }}"
     },
     "RFModule": {
         "RFModule": "Módulo de RF",
@@ -384,7 +387,7 @@
     "FirmwareGuide": {
         "FirmwareGuideTitle": "Es posible que este bootloader no permita pasar al modo firmware automáticamente. Pasar manualmente a modo bootloader, siguiendo estos pasos:",
         "FirmwareGuideStep1": "Desconectar el cable USB y apagar la radio",
-        "FirmwareGuideStep2": "Encender la radio normalmente y asegurarse de que todas las verificaciones se han acabado",
+        "FirmwareGuideStep2": "Encender la radio normalmente y asegurarse de que todas las verificaciones han terminado",
         "FirmwareGuideStep3": "Conectar la radio al ordenador y seleccionar \"Frsky Suite\" en el menú que aparece en pantalla de la radio.",
         "WaitingForFirmware": "Esperando Firmware"
     },
@@ -496,5 +499,14 @@
         "Sensors": "Sensores",
         "VTX": "VTX",
         "Radio": "Radio"
+    },
+    "Simulator": {
+        "EthosSimulator": "Ethos simulator",
+        "Radio": "Radio",
+        "Release": "Release",
+        "Protocol": "Protocol",
+        "StartSim": "Start simulator",
+        "NoSupportedSim": "No supported simulator found",
+        "DownloadingSimulator": "Downloading simulator ..."
     }
 }

@@ -160,7 +160,7 @@
         "ProductAssets": "Produkt elementer"
     },
     "VersionTag": {
-        "MissingRemoteVersion": "Mangler 'remote' versjon",
+        "FetchingFromServer": "Henter fra server ...",
         "NoCurrentVersion": "Ingen nåværende versjon",
         "OutOfDate": "Utdatert",
         "GreaterThanLatestRelease": "Større enn siste utgivelse",
@@ -283,7 +283,10 @@
         "ConfirmBackup": "Bekreft sikkerhetskopi",
         "BackupOrContinueUpdate": "Det er anbefalt at du sikkerhetskopierer innholdet på radioen før du oppdaterer. Ønsker du å gå til Sikkerhetskopi-siden eller fortsette oppdateringen?",
         "GoToBackup": "Gå til Sikkerhetskopi-siden",
-        "ContinueUpdaing": "Fortsett oppdateringen"
+        "ContinueUpdaing": "Fortsett oppdateringen",
+        "CheckingComponentsVersion": "Checking components version ...",
+        "ComponentsNeedToBeUpdated": "Components need to be updated",
+        "UpdateComponentToVersion": "Component {{ component }} needs to be updated to version {{ version }}"
     },
     "RFModule": {
         "RFModule": "RF Modul",
@@ -504,5 +507,14 @@
         "Sensors": "Sensorer",
         "VTX": "VTX",
         "Radio": "Radio"
+    },
+    "Simulator": {
+        "EthosSimulator": "Ethos Simulator",
+        "Radio": "Radio",
+        "Release": "Release",
+        "Protocol": "Protocol",
+        "StartSim": "Start simulator",
+        "NoSupportedSim": "No supported simulator found",
+        "DownloadingSimulator": "Downloading simulator ..."
     }
 }

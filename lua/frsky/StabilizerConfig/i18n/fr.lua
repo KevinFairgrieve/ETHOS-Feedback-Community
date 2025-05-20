@@ -63,8 +63,8 @@ return {
   WaitUntilCali = "Attendre la fin de la calibration ...",
   PressCaliToStart = "Appuyer sur \"Calibrer\" pour commencer",
   CalibrationFinished = "Calibration terminée !",
-  OpenGyroMode = "Gyro mode not enabled",
-  ConfirmOpenGyroMode = "Do you want to enable \"Gyro mode\"?",
+  OpenGyroMode = "Gyro non activé",
+  ConfirmOpenGyroMode = "Activer \"Gyro\"?",
   NoArrowHint = "I don't have an arrow on my Rx box.",
   FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
 
