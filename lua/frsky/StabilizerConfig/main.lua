@@ -1,7 +1,6 @@
 local LUA_VERSION = "3.0.7";
 
 TEST = false
-GlobalPath = ""
 
 local REMOTE_VERSION_CONSTRAINT = function (major, minor, revision)
   if major > 3 then
@@ -19,14 +18,14 @@ local REMOTE_VERSION_CONSTRAINT = function (major, minor, revision)
   end
 end
 
-local CommonFile = assert(loadfile(GlobalPath .. "common.lua"))()
+local CommonFile = assert(loadfile("common.lua"))()
 Product = CommonFile.Product
 Module = CommonFile.Module
 Sensor = CommonFile.Sensor
 Dialog = CommonFile.Dialog
 Progress = CommonFile.Progress
 
-STR = assert(loadfile(GlobalPath .. "i18n/i18n.lua"))().translate
+STR = assert(loadfile("i18n/i18n.lua"))().translate
 
 local function name()
   return STR("ScriptName")
@@ -71,7 +70,7 @@ local REMOTE_DEVICE = {address = 0xFE, state = STATE_READ, field = nil, label = 
   Product.family = (value >> 8) & 0xFF
   Product.id = (value >> 16) & 0xFF
   print("Remote device family: " .. Product.family .. ", product: " .. Product.id)
-  local FrSkyProducts = assert(loadfile(GlobalPath .. "products.lua"))()
+  local FrSkyProducts = assert(loadfile("products.lua"))()
   for i, family in pairs(FrSkyProducts) do
     if family.ID == Product.family then
       for j, product in pairs(family.Products) do
@@ -119,20 +118,20 @@ local function clearAllTasks()
   Product.resetProduct()
 end
 
-local pages = {{file = assert(loadfile(GlobalPath .. "basic/basic.lua")()), label = STR("BasicConfig")},
+local pages = {{file = assert(loadfile("basic/basic.lua")()), label = STR("BasicConfig")},
                {
                  name = STR("StabilizerGroup1"),
                  subPages = {
-                   {file = assert(loadfile(GlobalPath .. "group1/precali1.lua")()), label = STR("Calibration")},
-                   {file = assert(loadfile(GlobalPath .. "group1/stab1.lua")()), label = STR("Configuration")},}
+                   {file = assert(loadfile("group1/precali1.lua")()), label = STR("Calibration")},
+                   {file = assert(loadfile("group1/stab1.lua")()), label = STR("Configuration")},}
                  },
                {
                  name = STR("StabilizerGroup2"),
                  subPages = {
-                   {file = assert(loadfile(GlobalPath .. "group2/precali2.lua")()), label = STR("Calibration")},
-                   {file = assert(loadfile(GlobalPath .. "group2/stab2.lua")()), label = STR("Configuration")},}
+                   {file = assert(loadfile("group2/precali2.lua")()), label = STR("Calibration")},
+                   {file = assert(loadfile("group2/stab2.lua")()), label = STR("Configuration")},}
                  },
-               {file = assert(loadfile(GlobalPath .. "cali/cali.lua")()), label = STR("SixAxisCali")}}
+               {file = assert(loadfile("cali/cali.lua")()), label = STR("SixAxisCali")}}
 
 local currentPage = nil
 

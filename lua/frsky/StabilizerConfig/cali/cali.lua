@@ -61,9 +61,9 @@ local CALI_LABELS = {
 
 local function getCaliBitmapPath()
   if isSR6Mini() then
-    return GlobalPath .. "cali/cali_sr6_" .. step .. ".png"
+    return "cali/cali_sr6_" .. step .. ".png"
   else
-    return GlobalPath .. "cali/cali_" .. step .. ".png"
+    return "cali/cali_" .. step .. ".png"
   end
 end
 
@@ -204,7 +204,7 @@ local function wakeup()
       bitmap = lcd.loadBitmap(getCaliBitmapPath())
       Dialog.closeDialog()
     else
-      bitmap = lcd.loadBitmap(GlobalPath .. "cali/cali_ok.png")
+      bitmap = lcd.loadBitmap("cali/cali_ok.png")
       Dialog.message(STR("CalibrationFinished"))
     end
     nextStep = false
