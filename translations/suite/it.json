@@ -513,6 +513,8 @@
         "Protocol": "Protocollo",
         "StartSim": "Avvia simulatore",
         "NoSupportedSim": "Nessun simulatore supportato trovato",
-        "DownloadingSimulator": "Scarico simulatore ..."
+        "DownloadingSimulator": "Scarico simulatore ...",
+        "InitSimulatorFailed": "Failed to initialize simulator",
+        "FailToPrepareSimDir": "An error occurred while preparing the necessary directory for the simulator"
     }
 }
