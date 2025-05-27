@@ -76,6 +76,7 @@ local REMOTE_DEVICE = {address = 0xFE, state = STATE_READ, field = nil, label = 
       for j, product in pairs(family.Products) do
         if product.ID == Product.id then
           Product.supportFields = product.SupportFields
+          Product.caliPrefix = product.CaliPrefix
           if task.field ~= nil then
             task.field:value(product.Name)
             task.state = STATE_PASS
@@ -416,6 +417,7 @@ local function checkNextTask()
     Product.supportFields = {2, 3, 4}
     Product.family = 2
     Product.id = 68
+    Product.caliPrefix = "ap_sr8"
   end
 
   for i, task in pairs(tasks) do
