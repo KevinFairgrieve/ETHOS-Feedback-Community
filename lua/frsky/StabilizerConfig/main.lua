@@ -417,7 +417,7 @@ local function checkNextTask()
     Product.supportFields = {2, 3, 4}
     Product.family = 2
     Product.id = 68
-    Product.caliPrefix = "ap_sr8"
+    Product.caliPrefix = "td_sr6"
   end
 
   for i, task in pairs(tasks) do
