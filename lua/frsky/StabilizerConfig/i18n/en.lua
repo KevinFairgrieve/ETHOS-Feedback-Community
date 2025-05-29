@@ -77,10 +77,12 @@ return {
 
   CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
   CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
-  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
-  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
-  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
-  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
+  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you\n and the pins pointing DOWNWARD.",
+  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you\n and the pins pointing UPWARD.",
+  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you\n and the pins pointing LEFT.",
+  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you\n and the pins pointing RIGHT.",
+
+  PositionRX = "Please position your receiver as shown in the image",
 
   CaliFinished = "Calibration finished. You can exit this page now",
 

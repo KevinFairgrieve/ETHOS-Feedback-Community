@@ -82,6 +82,8 @@ return {
   CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
   CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
 
+  PositionRX = "Please position your receiver as shown in the image",
+
   CaliFinished = "Kalibrierung beendet. Sie können diese Seite jetzt verlassen",
 
   CheckingGyroMode = "Überprüfung des Kreiselmodus ...",

@@ -161,17 +161,18 @@ local function paint()
   local width, height = lcd.getWindowSize()
 
   lcd.color(lcd.GREY(0xFF))
-  local tw, th = lcd.getTextSize(getCaliLabel())
-  lcd.drawText(width / 2, height / 3, getCaliLabel(), CENTERED)
-  if gyroModeCheck == GYRO_MODE_CHECK_PASS and (step < 6 or calibrationState ~= CALIBRATION_OK) then
-    lcd.drawText(width / 2, height / 3 + th, STR("PressCaliToStart"), CENTERED)
+  local tw, th = lcd.getTextSize(STR("PositionRX"))
+  lcd.drawText(width / 2, height / 3, STR("PositionRX"), CENTERED)
+  if gyroModeCheck == GYRO_MODE_CHECK_PASS and (step < 6 or calibrationState ~= CALIBRATION_INIT) then
+    lcd.drawText(width / 2, height / 3 + th * 2, STR("PressCaliToStart"), CENTERED)
   end
 
   if bitmap ~= nil then
     local w = bitmap:width()
     local h = bitmap:height()
     local x = width / 2 - w / 2
-    local y = height / 3 * 2 - h / 2
+    -- local y = height / 3 * 2 - h / 2
+    local y = height / 3 + th * 4
     lcd.drawBitmap(x, y, bitmap)
   end
 end

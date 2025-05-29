@@ -81,6 +81,8 @@ UnableToRead = "Nelze načíst",
   CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
   CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
 
+  PositionRX = "Please position your receiver as shown in the image",
+
   CaliFinished = "Kalibrace dokončena. Nyní můžete tuto stránku zavřít.",
 
   CheckingGyroMode = "Kontroluje se režim gyra ...",
