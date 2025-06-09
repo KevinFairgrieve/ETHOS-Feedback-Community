@@ -65,8 +65,8 @@ return {
   CalibrationFinished = "Kalibrierung abgeschlossen!",
   OpenGyroMode = "Kreiselmodus nicht aktiviert!",
   ConfirmOpenGyroMode = "Möchen Sie den \"Gyro mode\" aktivieren?",
-  NoArrowHint = "I don't have an arrow on my Rx box.",
-  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
+  NoArrowHint = "Ich habe keinen Pfeil auf meinen RX-Gehäuse.",
+  FindAnArrow = "Bitte besuchen Sie die Produktseite der offiziellen Website, suchen Sie das entsprechende Symbol für den Pfeil und zeichnen Sie ihn auf Ihren Empfänger.",
 
   CaliSR6Step1 = "Legen Sie den SR6 horizontal mit der Oberseite nach oben.",
   CaliSR6Step2 = "Legen Sie den SR6 horizontal mit der Oberseite nach unten.",
@@ -75,14 +75,14 @@ return {
   CaliSR6Step5 = "Legen Sie Ihre SR6 mit der ANT rechts, oberen Seite zu Ihnen.",
   CaliSR6Step6 = "Legen Sie Ihre SR6 mit der ANT rechts, untere Seite zu Ihnen.",
 
-  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
-  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
-  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
-  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
-  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
-  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
+  CaliCommonStep1 = "Legen Sie Ihren Kreise-Rx horizontal mit dem Etikett nach OBEN.",
+  CaliCommonStep2 = "Legen Sie Ihren Kreisel-Rx horizontal mit dem Etikett nach UNTEN.",
+  CaliCommonStep3 = "Legen Sie Ihren Kreisel-Rx so hin, dass das Etikett zu Ihnen und der Pfeil nach OBEN zeigt.",
+  CaliCommonStep4 = "Legen Sie Ihren Kreisel-Rx so hin, dass das Etikett zu Ihnen und der Pfeil nach UNTEN zeigt.",
+  CaliCommonStep5 = "Legen Sie Ihren Kreisel-Rx so hin, dass das Etikett zu Ihnen und der Pfeil nach RECHTS zeigt.",
+  CaliCommonStep6 = "Legen Sie Ihren Kreisel-Rx so hin, dass das Etikett zu Ihnen und der Pfeil nach LINKS zeigt.",
 
-  PositionRX = "Please position your receiver as shown in the image",
+  PositionRX = "Bitte positionieren Sie Ihren Empfänger wie in der Abbildung gezeigt.",
 
   CaliFinished = "Kalibrierung beendet. Sie können diese Seite jetzt verlassen",
 
