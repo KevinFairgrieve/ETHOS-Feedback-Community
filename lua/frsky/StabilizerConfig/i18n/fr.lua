@@ -65,6 +65,8 @@ return {
   CalibrationFinished = "Calibration terminée !",
   OpenGyroMode = "Gyro non activé",
   ConfirmOpenGyroMode = "Activer \"Gyro\"?",
+  NoArrowHint = "I don't have an arrow on my Rx box.",
+  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
 
   CaliSR6Step1 = "Positionner le SR6 horizontalement, connecteurs en haut.",
   CaliSR6Step2 = "Positionner le SR6 horizontalement, connecteurs en bas.",
@@ -73,12 +75,14 @@ return {
   CaliSR6Step5 = "Positionner le SR6 ANT à droite, connecteurs face à vous.",
   CaliSR6Step6 = "Positionner le SR6 ANT à droite, connecteurs face opposée.",
 
-  CaliCommonStep1 = "Positionner le Rx Stab. horizontalement face vers le haut.",
-  CaliCommonStep2 = "Positionner le Rx Stab. horizontalement face vers le bas.",
-  CaliCommonStep3 = "Positionner le Rx Stab. verticalement, marquage vers la gauche.",
-  CaliCommonStep4 = "Positionner le Rx Stab. verticalement, marquage vers la droite.",
-  CaliCommonStep5 = "Positionner le Rx Stab. verticalement, marquage affiché normalement.",
-  CaliCommonStep6 = "Positionner le Rx Stab. verticalement, marquage affiché inversé.",
+  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
+  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
+  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
+  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
+  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
+  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
+
+  PositionRX = "Please position your receiver as shown in the image",
 
   CaliFinished = "Calibration terminée. Vous pouvez quitter cette page",
 

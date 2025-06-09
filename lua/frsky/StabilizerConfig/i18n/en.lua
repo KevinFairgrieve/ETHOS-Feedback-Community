@@ -65,6 +65,8 @@ return {
   CalibrationFinished = "Calibration finished!",
   OpenGyroMode = "Gyro mode not enabled",
   ConfirmOpenGyroMode = "Do you want to enable \"Gyro mode\"?",
+  NoArrowHint = "I don't have an arrow on my Rx box.",
+  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
 
   CaliSR6Step1 = "Place your SR6 horizontal, top side up.",
   CaliSR6Step2 = "Place your SR6 horizontal, top side down.",
@@ -73,12 +75,14 @@ return {
   CaliSR6Step5 = "Place your SR6 with ANT right, top side facing you.",
   CaliSR6Step6 = "Place your SR6 with ANT right, back side facing you.",
 
-  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the front facing up.",
-  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the back facing up.",
-  CaliCommonStep3 = "Place your Stabilizer Rx vertical on its short side with the label tilted to the left.",
-  CaliCommonStep4 = "Place your Stabilizer Rx vertical on its short side with the label tilted to the right.",
-  CaliCommonStep5 = "Place your Stabilizer Rx on its narrow long side with the label the right way up.",
-  CaliCommonStep6 = "Place your Stabilizer Rx on its narrow long side with the label upside down.",
+  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
+  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
+  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you\n and the pins pointing DOWNWARD.",
+  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you\n and the pins pointing UPWARD.",
+  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you\n and the pins pointing LEFT.",
+  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you\n and the pins pointing RIGHT.",
+
+  PositionRX = "Please position your receiver as shown in the image",
 
   CaliFinished = "Calibration finished. You can exit this page now",
 

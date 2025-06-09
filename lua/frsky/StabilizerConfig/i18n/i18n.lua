@@ -2,13 +2,13 @@ local locale = system.getLocale()
 print("Get system language flag: ", locale)
 
 local i18nMap = {
-  en = assert(loadfile(GlobalPath .. "i18n/en.lua"))(),
+  en = assert(loadfile("i18n/en.lua"))(),
 }
 
-local i18nFiles = system.listFiles(GlobalPath .. "i18n")
+local i18nFiles = system.listFiles("i18n")
 for _, value in ipairs(i18nFiles) do
   if value == (locale .. ".lua") then
-    i18nMap[locale] = assert(loadfile(GlobalPath .. "i18n/" .. locale .. ".lua"))()
+    i18nMap[locale] = assert(loadfile("i18n/" .. locale .. ".lua"))()
   end
 end
 

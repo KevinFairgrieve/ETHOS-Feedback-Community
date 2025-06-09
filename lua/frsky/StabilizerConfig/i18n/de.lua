@@ -65,6 +65,8 @@ return {
   CalibrationFinished = "Kalibrierung abgeschlossen!",
   OpenGyroMode = "Kreiselmodus nicht aktiviert!",
   ConfirmOpenGyroMode = "Möchen Sie den \"Gyro mode\" aktivieren?",
+  NoArrowHint = "I don't have an arrow on my Rx box.",
+  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
 
   CaliSR6Step1 = "Legen Sie den SR6 horizontal mit der Oberseite nach oben.",
   CaliSR6Step2 = "Legen Sie den SR6 horizontal mit der Oberseite nach unten.",
@@ -73,12 +75,14 @@ return {
   CaliSR6Step5 = "Legen Sie Ihre SR6 mit der ANT rechts, oberen Seite zu Ihnen.",
   CaliSR6Step6 = "Legen Sie Ihre SR6 mit der ANT rechts, untere Seite zu Ihnen.",
 
-  CaliCommonStep1 = "Legen Sie den Kreisel-RX horizontal mit der Oberseite nach oben.",
-  CaliCommonStep2 = "Legen Sie den Kreisel-RX horizontal mit der Oberseite nach unten.",
-  CaliCommonStep3 = "Stellen Sie Ihren Kreisel-Rx senkrecht auf, Beschriftung zeigt nach links.",
-  CaliCommonStep4 = "Stellen Sie Ihren Kreisel-Rx senkrecht auf, Beschriftung zeigt nach rechts.",
-  CaliCommonStep5 = "Legen Sie Ihren Kreisel-Rx auf die lange schmale Seite, Beschriftung wird normal angezeigt",
-  CaliCommonStep6 = "Legen Sie Ihren Kreisel Rx auf die lange schmale Seite, Beschriftung steht auf dem Kopf.",
+  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
+  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
+  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
+  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
+  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
+  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
+
+  PositionRX = "Please position your receiver as shown in the image",
 
   CaliFinished = "Kalibrierung beendet. Sie können diese Seite jetzt verlassen",
 

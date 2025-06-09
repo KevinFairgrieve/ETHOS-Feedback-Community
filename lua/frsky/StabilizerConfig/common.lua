@@ -3,9 +3,10 @@ Product.resetProduct = function ()
   Product.family = nil
   Product.id = nil
   Product.supportFields = nil
+  Product.caliPrefix = nil
 end
 Product.exist = function ()
-  return Product.family ~= nil and Product.id ~= nil and Product.supportFields ~= nil
+  return Product.family ~= nil and Product.id ~= nil and Product.supportFields ~= nil and Product.caliPrefix ~= nil
 end
 
 local Module = {}
