@@ -63,10 +63,10 @@ return {
   WaitUntilCali = "Espere hasta que la calibración haya terminado ...",
   PressCaliToStart = "Presione el botón \"Calibrar\" para empezar",
   CalibrationFinished = "¡Calibración terminada!",
-  OpenGyroMode = "Gyro mode not enabled",
-  ConfirmOpenGyroMode = "Do you want to enable \"Gyro mode\"?",
-  NoArrowHint = "I don't have an arrow on my Rx box.",
-  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
+  OpenGyroMode = "Modo Giro no activado",
+  ConfirmOpenGyroMode = "¿Quiere activar \"modo Giro\"?",
+  NoArrowHint = "No tengo una flecha en la caja de mi Rx.",
+  FindAnArrow = "Por favor, visite la página web oficial del producto, y busque el diagrama correspondiente para la flecha, y dibujela en su receptor.",
 
   CaliSR6Step1 = "Coloque su SR6 horizontal, parte superior hacia arriba.",
   CaliSR6Step2 = "Coloque su SR6 horizontal, parte superior hacia abajo.",
@@ -75,19 +75,19 @@ return {
   CaliSR6Step5 = "Coloque su SR6 con la antena hacia la derecha, y la parte de arriba hacia usted.",
   CaliSR6Step6 = "Coloque su SR6 con la antena a la derecha, y la parte de abajo hacia usted.",
 
-  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
-  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
-  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
-  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
-  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
-  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
+  CaliCommonStep1 = "Coloque su Rx estabilizado horizontal con la etiqueta hacia ARRIBA.",
+  CaliCommonStep2 = "Coloque su Rx estabilizado horizontal con la etiqueta hacia ABAJO.",
+  CaliCommonStep3 = "Coloque su Rx estabilizado con la etiqueta mirando hacia usted y la flecha apuntando hacia ARRIBA.",
+  CaliCommonStep4 = "Coloque su Rx estabilizado con la etiqueta mirando hacia usted y la flecha apuntando hacia ABAJO.",
+  CaliCommonStep5 = "Coloque su Rx estabilizado con la etiqueta mirando hacia usted y la flecha apuntando hacia la DERECHA.",
+  CaliCommonStep6 = "Coloque su Rx estabilizado con la etiqueta mirando hacia usted y la flecha apuntando hacia la IZQUIERDA.",
 
-  PositionRX = "Please position your receiver as shown in the image",
+  PositionRX = "Por favor, ponga su receptor como se muestra en la imagen",
 
   CaliFinished = "Calibración terminada. Ya puede salir de esta página",
 
   CheckingGyroMode = "Comprobando el modo giro ...",
-  GyroModeDisabled = "Please ENABLE the \"Gyro mode\" in Basic Configuration",
+  GyroModeDisabled = "Por favor, ACTIVE el \"modo Giro\" en la configuración básica",
 
   PreCaliLevelCali = "Calibración de nivelación",
   PreCaliStickCenter = "Calibración de centrado palanca",
