@@ -65,8 +65,8 @@ return {
   CalibrationFinished = "Calibrazione finita!",
   OpenGyroMode = "Gyro non abilitato",
   ConfirmOpenGyroMode = "Vuoi abilitare \"Gyro mode\"?",
-  NoArrowHint = "I don't have an arrow on my Rx box.",
-  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
+  NoArrowHint = "Non ho una freccia sul box della Rx.",
+  FindAnArrow = "Si prega di visitare la pagina sul sito ufficiale, Trova il diagramma corrispondente la freccia, e disegnala sulla Rx.",
 
   CaliSR6Step1 = "Metti la SR6 orizzontale, parte superiore su.",
   CaliSR6Step2 = "Metti la SR6 orizzontale, parte superiore giù.",
@@ -75,14 +75,14 @@ return {
   CaliSR6Step5 = "Metti la SR6 con ANT destra, parte superiore frontale a te.",
   CaliSR6Step6 = "Metti la SR6 con ANT destra, parte posteriore frontale a te.",
 
-  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
-  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
-  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
-  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
-  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
-  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
+  CaliCommonStep1 = "Metti la tua Rx stabilizzata orizzontale con etichetta faccia SU.",
+  CaliCommonStep2 = "Metti la tua Rx stabilizzata orizzontale con etichetta faccia GIU.",
+  CaliCommonStep3 = "Metti la tua Rx stabilizzata orizzontale con etichetta frontale a te, freccia punta verso SU.",
+  CaliCommonStep4 = "Metti la tua Rx stabilizzata orizzontale con etichetta frontale a te, freccia punta verso GIU.",
+  CaliCommonStep5 = "Metti la tua Rx stabilizzata orizzontale con etichetta frontale a te, freccia punta verso DESTRA.",
+  CaliCommonStep6 = "Metti la tua Rx stabilizzata orizzontale con etichetta frontale a te, freccia punta verso SINISTRA.",
 
-  PositionRX = "Please position your receiver as shown in the image",
+  PositionRX = "Metti la ricevente come nell'immagine",
 
   CaliFinished = "Calibrazione completata. Puoi uscire da questa pagina",
 
