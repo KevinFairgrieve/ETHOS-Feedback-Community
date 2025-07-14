@@ -65,8 +65,8 @@ return {
   CalibrationFinished = "Calibration terminée !",
   OpenGyroMode = "Gyro non activé",
   ConfirmOpenGyroMode = "Activer \"Gyro\"?",
-  NoArrowHint = "I don't have an arrow on my Rx box.",
-  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
+  NoArrowHint = "Il n'y a pas de flèche sur ma box.",
+  FindAnArrow = "Visiter le site officiel Frsky, choisir le produit correspondant et dessiner une flèche sur votre boitier en fonction.",
 
   CaliSR6Step1 = "Positionner le SR6 horizontalement, connecteurs en haut.",
   CaliSR6Step2 = "Positionner le SR6 horizontalement, connecteurs en bas.",
@@ -75,19 +75,19 @@ return {
   CaliSR6Step5 = "Positionner le SR6 ANT à droite, connecteurs face à vous.",
   CaliSR6Step6 = "Positionner le SR6 ANT à droite, connecteurs face opposée.",
 
-  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
-  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
-  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
-  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
-  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
-  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
+  CaliCommonStep1 = "Positionner le Rx Stab. horizontalement, label vers le haut.",
+  CaliCommonStep2 = "Positionner le Rx Stab. horizontalement, label vers le bas.",
+  CaliCommonStep3 = "Positionner le Rx Stab., label face à vous, flèche vers le haut.",
+  CaliCommonStep4 = "Positionner le Rx Stab., label face à vous, flèche vers le bas.",
+  CaliCommonStep5 = "Positionner le Rx Stab., label face à vous, flèche vers la droite.",
+  CaliCommonStep6 = "Positionner le Rx Stab., label face à vous, flèche vers la gauche.",
 
-  PositionRX = "Please position your receiver as shown in the image",
+  PositionRX = "Positionner le Rx comme sur l'image",
 
   CaliFinished = "Calibration terminée. Vous pouvez quitter cette page",
 
   CheckingGyroMode = "Vérification mode gyro ...",
-  GyroModeDisabled = "Please ENABLE the \"Gyro mode\" in Basic Configuration",
+  GyroModeDisabled = "Valider le \"mode Gyro\" dans la conf. de base",
 
   PreCaliLevelCali = "Calibration niveau",
   PreCaliStickCenter = "Calibration centres",
