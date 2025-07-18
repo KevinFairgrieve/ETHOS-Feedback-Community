@@ -366,11 +366,11 @@
         "Export": "Esporta",
         "DebugOptions": "Opzioni Debug",
         "Proxy": "Proxy",
-        "NoProxy": "No proxy",
-        "SystemProxy": "System proxy",
-        "CustomProxy": "Custom proxy",
-        "ProxyAddress": "Proxy address",
-        "ProxyPort": "Port"
+        "NoProxy": "Nessun proxy",
+        "SystemProxy": "Proxy Sistema",
+        "CustomProxy": "Proxy Custom",
+        "ProxyAddress": "Indirizzo Proxy",
+        "ProxyPort": "Porta"
     },
     "Documentation": {
         "Documentation": "Documentazione",
