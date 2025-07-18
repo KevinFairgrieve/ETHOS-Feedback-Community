@@ -366,7 +366,13 @@
         "DebugMode": "'Debug' modus",
         "ExportDebugTraces": "Eksporter 'Debug traces'",
         "Export": "Eksport",
-        "DebugOptions": "'Debug' alternativer"
+        "DebugOptions": "'Debug' alternativer",
+        "Proxy": "Proxy",
+        "NoProxy": "No proxy",
+        "SystemProxy": "System proxy",
+        "CustomProxy": "Custom proxy",
+        "ProxyAddress": "Proxy address",
+        "ProxyPort": "Port"
     },
     "Documentation": {
         "Documentation": "Dokumentasjon",

@@ -365,7 +365,13 @@
         "DebugMode": "Mód ladenia",
         "ExportDebugTraces": "Export ladiacich stôp",
         "Export": "Export",
-        "DebugOptions": "Možnosti ladenia"
+        "DebugOptions": "Možnosti ladenia",
+        "Proxy": "Proxy",
+        "NoProxy": "No proxy",
+        "SystemProxy": "System proxy",
+        "CustomProxy": "Custom proxy",
+        "ProxyAddress": "Proxy address",
+        "ProxyPort": "Port"
     },
     "Documentation": {
         "Documentation": "Dokumentácia",

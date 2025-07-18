@@ -366,7 +366,13 @@
         "DebugMode": "Modo de Depuração",
         "ExportDebugTraces": "Exportar rastreamentos de depuração",
         "Export": "Exportar",
-        "DebugOptions": "Debug options"
+        "DebugOptions": "Debug options",
+        "Proxy": "Proxy",
+        "NoProxy": "No proxy",
+        "SystemProxy": "System proxy",
+        "CustomProxy": "Custom proxy",
+        "ProxyAddress": "Proxy address",
+        "ProxyPort": "Port"
     },
     "Documentation": {
         "Documentation": "Documentação",

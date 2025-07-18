@@ -364,7 +364,13 @@
         "DebugMode": "Režim ladění",
         "ExportDebugTraces": "Exportovat ladění",
         "Export": "Exportovat",
-        "DebugOptions": "Možnosti ladění"
+        "DebugOptions": "Možnosti ladění",
+        "Proxy": "Proxy",
+        "NoProxy": "No proxy",
+        "SystemProxy": "System proxy",
+        "CustomProxy": "Custom proxy",
+        "ProxyAddress": "Proxy address",
+        "ProxyPort": "Port"
     },
     "Documentation": {
         "Documentation": "Dokumentace",

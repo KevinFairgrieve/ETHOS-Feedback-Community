@@ -365,7 +365,13 @@
         "DebugMode": "Debug 模式",
         "ExportDebugTraces": "导出 Debug 记录",
         "Export": "导出",
-        "DebugOptions": "Debug 选项"
+        "DebugOptions": "Debug 选项",
+        "Proxy": "Proxy",
+        "NoProxy": "No proxy",
+        "SystemProxy": "System proxy",
+        "CustomProxy": "Custom proxy",
+        "ProxyAddress": "Proxy address",
+        "ProxyPort": "Port"
     },
     "Documentation": {
         "Documentation": "文档",
