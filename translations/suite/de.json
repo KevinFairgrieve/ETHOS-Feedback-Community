@@ -367,10 +367,10 @@
         "Export": "Exportieren",
         "DebugOptions": "Debug-Optionen",
         "Proxy": "Proxy",
-        "NoProxy": "No proxy",
-        "SystemProxy": "System proxy",
-        "CustomProxy": "Custom proxy",
-        "ProxyAddress": "Proxy address",
+        "NoProxy": "Kein Proxy",
+        "SystemProxy": "System-Proxy",
+        "CustomProxy": "Benutzerdefinierter Proxy",
+        "ProxyAddress": "Proxy-Adresse",
         "ProxyPort": "Port"
     },
     "Documentation": {
