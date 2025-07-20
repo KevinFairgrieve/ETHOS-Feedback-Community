@@ -276,7 +276,7 @@
         "BackupOrContinueUpdate": "Se recomienda hacer una copia de seguridad de su radio antes de actualizar. ¿Quiere ir a la página de backup, o continuar con la actualización?",
         "GoToBackup": "Vaya a la página de backup",
         "ContinueUpdaing": "Continue actualizando",
-        "CheckingComponentsVersion": "Comprobando version de componente ...",
+        "CheckingComponentsVersion": "Comprobando version de componentes ...",
         "ComponentsNeedToBeUpdated": "Se necesita actualizar componentes",
         "UpdateComponentToVersion": "El componente {{ component }} necesita ser actualizado a la versión {{ version }}"
     },
