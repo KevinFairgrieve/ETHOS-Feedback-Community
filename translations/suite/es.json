@@ -276,9 +276,9 @@
         "BackupOrContinueUpdate": "Se recomienda hacer una copia de seguridad de su radio antes de actualizar. ¿Quiere ir a la página de backup, o continuar con la actualización?",
         "GoToBackup": "Vaya a la página de backup",
         "ContinueUpdaing": "Continue actualizando",
-        "CheckingComponentsVersion": "Checking components version ...",
-        "ComponentsNeedToBeUpdated": "Components need to be updated",
-        "UpdateComponentToVersion": "Component {{ component }} needs to be updated to version {{ version }}"
+        "CheckingComponentsVersion": "Comprobando version de componente ...",
+        "ComponentsNeedToBeUpdated": "Se necesita actualizar componentes",
+        "UpdateComponentToVersion": "El componente {{ component }} necesita ser actualizado a la versión {{ version }}"
     },
     "RFModule": {
         "RFModule": "Módulo de RF",
@@ -360,11 +360,11 @@
         "Export": "Exportar",
         "DebugOptions": "Opciones de depuración",
         "Proxy": "Proxy",
-        "NoProxy": "No proxy",
-        "SystemProxy": "System proxy",
-        "CustomProxy": "Custom proxy",
-        "ProxyAddress": "Proxy address",
-        "ProxyPort": "Port"
+        "NoProxy": "Sin proxy",
+        "SystemProxy": "Proxy Sistema",
+        "CustomProxy": "Proxy personalizado",
+        "ProxyAddress": "Direccion Proxy",
+        "ProxyPort": "Puerto"
     },
     "Documentation": {
         "Documentation": "Documentación",
@@ -507,14 +507,14 @@
         "Radio": "Radio"
     },
     "Simulator": {
-        "EthosSimulator": "Ethos simulator",
+        "EthosSimulator": "Simulador Ethos",
         "Radio": "Radio",
-        "Release": "Release",
-        "Protocol": "Protocol",
-        "StartSim": "Start simulator",
-        "NoSupportedSim": "No supported simulator found",
-        "DownloadingSimulator": "Downloading simulator ...",
-        "InitSimulatorFailed": "Failed to initialize simulator",
-        "FailToPrepareSimDir": "An error occurred while preparing the necessary directory for the simulator"
+        "Release": "Versión",
+        "Protocol": "Protocolo",
+        "StartSim": "Iniciar simulador",
+        "NoSupportedSim": "No se ha encontrado simulador soportado",
+        "DownloadingSimulator": "Descargando simulador ...",
+        "InitSimulatorFailed": "Fallo al iniciar simulador",
+        "FailToPrepareSimDir": "Ha ocurrido un error mientras se preparaba el directorio necesario para el simulador"
     }
 }
