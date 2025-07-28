@@ -523,11 +523,11 @@
         "DownloadingSimulator": "Simulator herunterladen...",
         "InitSimulatorFailed": "Simulator konnte nicht initialisiert werden",
         "FailToPrepareSimDir": "Bei der Erstellung des erforderlichen Verzeichnisses für den Simulator ist ein Fehler aufgetreten",
-        "StopSimulator": "Stop simulator",
-        "UploadFiles": "Upload files",
-        "UploadFilesDestQuestion": "Which directory would you like to upload the files to in the simulator?",
-        "CustomDirectory": "Custom directory",
-        "RestartSimuatorQuestion": "Files uploaded successfully. Do you need to restart the simulator to load the files?",
-        "SwitchPageQuestion": "The simulator is about to stop. Are you sure you want to continue?"
+        "StopSimulator": "Simulator stoppen",
+        "UploadFiles": "Dateien hochladen",
+        "UploadFilesDestQuestion": "In welches Verzeichnis möchten Sie die Dateien im Simulator hochladen?",
+        "CustomDirectory": "Benutzerdefiniertes Verzeichnis",
+        "RestartSimuatorQuestion": "Dateien erfolgreich hochgeladen. Möchten Sie den Simulator neu starten, um die Dateien zu laden?",
+        "SwitchPageQuestion": "Der Simulator wird angehalten. Möchten Sie wirklich fortfahren?"
     }
 }
