@@ -515,6 +515,12 @@
         "NoSupportedSim": "No se ha encontrado simulador soportado",
         "DownloadingSimulator": "Descargando simulador ...",
         "InitSimulatorFailed": "Fallo al iniciar simulador",
-        "FailToPrepareSimDir": "Ha ocurrido un error mientras se preparaba el directorio necesario para el simulador"
+        "FailToPrepareSimDir": "Ha ocurrido un error mientras se preparaba el directorio necesario para el simulador",
+        "StopSimulator": "Stop simulator",
+        "UploadFiles": "Upload files",
+        "UploadFilesDestQuestion": "Which directory would you like to upload the files to in the simulator?",
+        "CustomDirectory": "Custom directory",
+        "RestartSimuatorQuestion": "Files uploaded successfully. Do you need to restart the simulator to load the files?",
+        "SwitchPageQuestion": "The simulator is about to stop. Are you sure you want to continue?"
     }
 }
