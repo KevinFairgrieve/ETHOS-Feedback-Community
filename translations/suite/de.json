@@ -528,6 +528,7 @@
         "UploadFilesDestQuestion": "In welches Verzeichnis möchten Sie die Dateien im Simulator hochladen?",
         "CustomDirectory": "Benutzerdefiniertes Verzeichnis",
         "RestartSimuatorQuestion": "Dateien erfolgreich hochgeladen. Möchten Sie den Simulator neu starten, um die Dateien zu laden?",
-        "SwitchPageQuestion": "Der Simulator wird angehalten. Möchten Sie wirklich fortfahren?"
+        "SwitchPageQuestion": "Der Simulator wird angehalten. Möchten Sie wirklich fortfahren?",
+        "NoDestDirSelected": "No destination directory selected!"
     }
 }

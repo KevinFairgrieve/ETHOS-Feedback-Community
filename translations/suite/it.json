@@ -527,6 +527,7 @@
         "UploadFilesDestQuestion": "Which directory would you like to upload the files to in the simulator?",
         "CustomDirectory": "Custom directory",
         "RestartSimuatorQuestion": "Files uploaded successfully. Do you need to restart the simulator to load the files?",
-        "SwitchPageQuestion": "The simulator is about to stop. Are you sure you want to continue?"
+        "SwitchPageQuestion": "The simulator is about to stop. Are you sure you want to continue?",
+        "NoDestDirSelected": "No destination directory selected!"
     }
 }
