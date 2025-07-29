@@ -522,12 +522,12 @@
         "DownloadingSimulator": "Scarico simulatore ...",
         "InitSimulatorFailed": "Inizializzazione Simulatore Fallita",
         "FailToPrepareSimDir": "Errore durante la preparazione della directory necessaria al Simulatore",
-        "StopSimulator": "Stop simulator",
-        "UploadFiles": "Upload files",
-        "UploadFilesDestQuestion": "Which directory would you like to upload the files to in the simulator?",
-        "CustomDirectory": "Custom directory",
-        "RestartSimuatorQuestion": "Files uploaded successfully. Do you need to restart the simulator to load the files?",
-        "SwitchPageQuestion": "The simulator is about to stop. Are you sure you want to continue?",
-        "NoDestDirSelected": "No destination directory selected!"
+        "StopSimulator": "Stop simulatore",
+        "UploadFiles": "Carica Files",
+        "UploadFilesDestQuestion": "Quale directory vuoi caricare nel simulatore?",
+        "CustomDirectory": "Directory Custom",
+        "RestartSimuatorQuestion": "Files caricati correttamente. Necessiti di riavviare il simulatore per attivare i files?",
+        "SwitchPageQuestion": "Il simulatore sta per essere arrestato. Sei sicuro di voler continuare?",
+        "NoDestDirSelected": "Nessuna directory di destinazione selezionata!"
     }
 }
