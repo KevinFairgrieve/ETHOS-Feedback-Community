@@ -513,21 +513,21 @@
         "Radio": "Rádio"
     },
     "Simulator": {
-        "EthosSimulator": "Ethos simulator",
-        "Radio": "Radio",
+        "EthosSimulator": "Ethos simulátor",
+        "Radio": "Rádio",
         "Release": "Release",
-        "Protocol": "Protocol",
-        "StartSim": "Start simulator",
-        "NoSupportedSim": "No supported simulator found",
-        "DownloadingSimulator": "Downloading simulator ...",
-        "InitSimulatorFailed": "Failed to initialize simulator",
-        "FailToPrepareSimDir": "An error occurred while preparing the necessary directory for the simulator",
-        "StopSimulator": "Stop simulator",
-        "UploadFiles": "Upload files",
-        "UploadFilesDestQuestion": "Which directory would you like to upload the files to in the simulator?",
-        "CustomDirectory": "Custom directory",
-        "RestartSimuatorQuestion": "Files uploaded successfully. Do you need to restart the simulator to load the files?",
-        "SwitchPageQuestion": "The simulator is about to stop. Are you sure you want to continue?",
-        "NoDestDirSelected": "No destination directory selected!"
+        "Protocol": "Protokol",
+        "StartSim": "Start simulátoru",
+        "NoSupportedSim": "Nenalezen podporovaný simulátor",
+        "DownloadingSimulator": "Stahuji simulátor ...",
+        "InitSimulatorFailed": "Nepodařilo se inicializovat simulátor",
+        "FailToPrepareSimDir": "Při přípravě složek potřebných pro simulátor nastala chyba",
+        "StopSimulator": "Zastavit simulátor",
+        "UploadFiles": "Nahrát soubory",
+        "UploadFilesDestQuestion": "Jakou složku chcete nahrát do simulátoru?",
+        "CustomDirectory": "Vlastní složka",
+        "RestartSimuatorQuestion": "Soubory úspěšně nahrány. Chcete restartovat simulátor pro načtení těchto souborů?",
+        "SwitchPageQuestion": "Simulátor bude ukončen. Opravdu chcete pokračovat?",
+        "NoDestDirSelected": "Nevybrána cílová složka!"
     }
 }
