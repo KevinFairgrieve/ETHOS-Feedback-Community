@@ -528,6 +528,11 @@
         "CustomDirectory": "Directory Custom",
         "RestartSimuatorQuestion": "Files caricati correttamente. Necessiti di riavviare il simulatore per attivare i files?",
         "SwitchPageQuestion": "Il simulatore sta per essere arrestato. Sei sicuro di voler continuare?",
-        "NoDestDirSelected": "Nessuna directory di destinazione selezionata!"
+        "NoDestDirSelected": "Nessuna directory di destinazione selezionata!",
+        "SyncRadioFilesToLocalSimulator": "Sync radio files to local simulator",
+        "OpenLocalSimDir": "Open local simulator directory",
+        "SelectLocalSimDir": "Select local simulator directory",
+        "CurrentLocalSimDir": "Current local simulator directory",
+        "OverwriteLocalSimDirQuestion": "You are about to synchronize the contents of the radio to the local simulator directory. This will overwrite the contents of the local directory. Are you sure you want to continue?"
     }
 }

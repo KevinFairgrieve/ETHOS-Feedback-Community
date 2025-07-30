@@ -528,6 +528,11 @@
         "CustomDirectory": "Vlastní složka",
         "RestartSimuatorQuestion": "Soubory úspěšně nahrány. Chcete restartovat simulátor pro načtení těchto souborů?",
         "SwitchPageQuestion": "Simulátor bude ukončen. Opravdu chcete pokračovat?",
-        "NoDestDirSelected": "Nevybrána cílová složka!"
+        "NoDestDirSelected": "Nevybrána cílová složka!",
+        "SyncRadioFilesToLocalSimulator": "Sync radio files to local simulator",
+        "OpenLocalSimDir": "Open local simulator directory",
+        "SelectLocalSimDir": "Select local simulator directory",
+        "CurrentLocalSimDir": "Current local simulator directory",
+        "OverwriteLocalSimDirQuestion": "You are about to synchronize the contents of the radio to the local simulator directory. This will overwrite the contents of the local directory. Are you sure you want to continue?"
     }
 }
