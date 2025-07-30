@@ -533,6 +533,7 @@
         "OpenLocalSimDir": "Open local simulator directory",
         "SelectLocalSimDir": "Select local simulator directory",
         "CurrentLocalSimDir": "Current local simulator directory",
-        "OverwriteLocalSimDirQuestion": "You are about to synchronize the contents of the radio to the local simulator directory. This will overwrite the contents of the local directory. Are you sure you want to continue?"
+        "OverwriteLocalSimDirQuestion": "You are about to synchronize the contents of the radio to the local simulator directory. This will overwrite the contents of the local directory. Are you sure you want to continue?",
+        "RadioConnectedToSim": "Radio connected to simulator"
     }
 }
