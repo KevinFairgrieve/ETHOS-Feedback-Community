@@ -530,11 +530,11 @@
         "RestartSimuatorQuestion": "Dateien erfolgreich hochgeladen. Möchten Sie den Simulator neu starten, um die Dateien zu laden?",
         "SwitchPageQuestion": "Der Simulator wird angehalten. Möchten Sie wirklich fortfahren?",
         "NoDestDirSelected": "Es wurde kein Zielverzeichnis ausgewählt!",
-        "SyncRadioFilesToLocalSimulator": "Sync radio files to local simulator",
-        "OpenLocalSimDir": "Open local simulator directory",
-        "SelectLocalSimDir": "Select local simulator directory",
-        "CurrentLocalSimDir": "Current local simulator directory",
-        "OverwriteLocalSimDirQuestion": "You are about to synchronize the contents of the radio to the local simulator directory. This will overwrite the contents of the local directory. Are you sure you want to continue?",
-        "RadioConnectedToSim": "Radio connected to simulator"
+        "SyncRadioFilesToLocalSimulator": "Synchronisieren Sie die Senderdateien mit dem lokalen Simulator.",
+        "OpenLocalSimDir": "Öffnen Sie das lokale Simulatorverzeichnis.",
+        "SelectLocalSimDir": "Wählen Sie das lokale Simulatorverzeichnis aus.",
+        "CurrentLocalSimDir": "Aktuelles lokales Simulatorverzeichnis",
+        "OverwriteLocalSimDirQuestion": "Sie sind dabei, den Inhalt des Senders mit dem lokalen Simulatorverzeichnis zu synchronisieren. Dadurch wird der Inhalt des lokalen Verzeichnisses überschrieben. Möchten Sie wirklich fortfahren?",
+        "RadioConnectedToSim": "Sender ist mit dem Simulator verbunden"
     }
 }
