@@ -537,6 +537,8 @@
         "OverwriteLocalSimDirQuestion": "Sie sind dabei, den Inhalt des Senders mit dem lokalen Simulatorverzeichnis zu synchronisieren. Dadurch wird der Inhalt des lokalen Verzeichnisses überschrieben. Möchten Sie wirklich fortfahren?",
         "RadioConnectedToSim": "Sender ist mit dem Simulator verbunden",
         "InitFailAndFallBackToDefault": "The selected simulator directory failed to initialize the necessary simulator files and has fallen back to the default path.",
-        "ExecSimScript": "Execute simulator macro script"
+        "ExecSimScript": "Execute simulator macro script",
+        "SelectSyncComponent": "Select components you want to synchronize",
+        "Synchronize": "Synchronize"
     }
 }

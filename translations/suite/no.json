@@ -538,6 +538,8 @@
         "OverwriteLocalSimDirQuestion": "You are about to synchronize the contents of the radio to the local simulator directory. This will overwrite the contents of the local directory. Are you sure you want to continue?",
         "RadioConnectedToSim": "Radio connected to simulator",
         "InitFailAndFallBackToDefault": "The selected simulator directory failed to initialize the necessary simulator files and has fallen back to the default path.",
-        "ExecSimScript": "Execute simulator macro script"
+        "ExecSimScript": "Execute simulator macro script",
+        "SelectSyncComponent": "Select components you want to synchronize",
+        "Synchronize": "Synchronize"
     }
 }
