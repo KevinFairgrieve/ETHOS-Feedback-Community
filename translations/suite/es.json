@@ -518,18 +518,18 @@
         "FailToPrepareSimDir": "Ha ocurrido un error mientras se preparaba el directorio necesario para el simulador",
         "StopSimulator": "Parar simulador",
         "UploadFiles": "Cargar archivos",
-        "UploadFilesDestQuestion": "¿En cual directorio quiere cargar los archivos en el simulador?",
+        "UploadFilesDestQuestion": "¿En cual directorio quiere cargar los archivos del simulador?",
         "CustomDirectory": "Directorio personalizado",
-        "RestartSimuatorQuestion": "Ficheros cargados con exito. ¿Necesita reiniciar el simulador para cargar los archivos?",
+        "RestartSimuatorQuestion": "Ficheros cargados con éxito. Necesita reiniciar el simulador para cargar los archivos",
         "SwitchPageQuestion": "El simulador se va a detener. ¿Esta seguro de que quiere continuar?",
         "NoDestDirSelected": "¡No se ha seleccionado un directorio de destino!",
         "SyncRadioFilesToLocalSimulator": "Sincroniza los archivos de la radio con los del simulador local",
-        "OpenLocalSimDir": "OpenAbra el directorio del simulador local",
+        "OpenLocalSimDir": "Abra el directorio del simulador local",
         "SelectLocalSimDir": "Seleccione el directorio del simulador local",
         "CurrentLocalSimDir": "Directorio actual del simulador local",
         "OverwriteLocalSimDirQuestion": "Va a sincronizar el contenido de la radio con el directorio del simulador local. Esta acción sobreescribira el contenido del directorio local del simulador. ¿Esta seguro de querer continuar?",
         "RadioConnectedToSim": "Radio conectada al simulador",
-        "InitFailAndFallBackToDefault": "The selected simulator directory failed to initialize the necessary simulator files and has fallen back to the default path.",
-        "ExecSimScript": "Execute simulator macro script"
+        "InitFailAndFallBackToDefault": "El directorio seleccionado del simulador no consiguió inicializar los archivos necesarios del simulador por lo que hemos vuelto al directorio por defecto.",
+        "ExecSimScript": "Ejecute el macro script del simulador"
     }
 }
