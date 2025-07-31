@@ -534,6 +534,8 @@
         "SelectLocalSimDir": "Seleziona directory Simulatore locale",
         "CurrentLocalSimDir": "Directory selezionata Simulatore locale",
         "OverwriteLocalSimDirQuestion": "Stai per sincronizzare i contenuti della radio alla directory del Simulatore locale. Questo sovrascriverà il contenuto della directory locale. Sei sicuro di continuare?",
-        "RadioConnectedToSim": "Radio connessa al simulatore"
+        "RadioConnectedToSim": "Radio connessa al simulatore",
+        "InitFailAndFallBackToDefault": "The selected simulator directory failed to initialize the necessary simulator files and has fallen back to the default path.",
+        "ExecSimScript": "Execute simulator macro script"
     }
 }
