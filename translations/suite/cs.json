@@ -529,15 +529,15 @@
         "RestartSimuatorQuestion": "Soubory úspěšně nahrány. Chcete restartovat simulátor pro načtení těchto souborů?",
         "SwitchPageQuestion": "Simulátor bude ukončen. Opravdu chcete pokračovat?",
         "NoDestDirSelected": "Nevybrána cílová složka!",
-        "SyncRadioFilesToLocalSimulator": "Sync radio files to local simulator",
-        "OpenLocalSimDir": "Open local simulator directory",
-        "SelectLocalSimDir": "Select local simulator directory",
-        "CurrentLocalSimDir": "Current local simulator directory",
-        "OverwriteLocalSimDirQuestion": "You are about to synchronize the contents of the radio to the local simulator directory. This will overwrite the contents of the local directory. Are you sure you want to continue?",
-        "RadioConnectedToSim": "Radio connected to simulator",
-        "InitFailAndFallBackToDefault": "The selected simulator directory failed to initialize the necessary simulator files and has fallen back to the default path.",
-        "ExecSimScript": "Execute simulator macro script",
-        "SelectSyncComponent": "Select components you want to synchronize",
-        "Synchronize": "Synchronize"
+        "SyncRadioFilesToLocalSimulator": "Synchronizovat soubory rádia do místního simulátoru",
+        "OpenLocalSimDir": "Otevřít místní složku simulátoru",
+        "SelectLocalSimDir": "Vybrat místní složku simulátoru",
+        "CurrentLocalSimDir": "Současná místní složka simulátoru",
+        "OverwriteLocalSimDirQuestion": "Chystáte se synchronizovat obsah rádia do místní složky simulátoru. Dojde k přepsání obsahu místní složky. Opravdu chcete pokračovat?",
+        "RadioConnectedToSim": "Rádio připojeno k simulátoru",
+        "InitFailAndFallBackToDefault": "Selhala inicializace vybrané složky simulátoru, použita výchozí cesta.",
+        "ExecSimScript": "Spustit makro skript simulátoru",
+        "SelectSyncComponent": "Vyberte komponenty, které chcete synchronizovat",
+        "Synchronize": "Synchronizovat"
     }
 }
