@@ -535,6 +535,7 @@
         "SelectSyncComponent": "Seleccione los componentes que quiere sincronizar",
         "Synchronize": "Sincronizar",
         "SelectMacro": "Please select the macro you want to execute",
-        "SimNotStarted": "Simulator isn't started"
+        "SimNotStarted": "Simulator isn't started",
+        "NoMacroFound": "No available simulator macro found"
     }
 }
