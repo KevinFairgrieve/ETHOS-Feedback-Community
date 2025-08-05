@@ -541,6 +541,7 @@
         "ExecSimScript": "Simulator-Makroskript ausführen",
         "SelectSyncComponent": "Wählen Sie die Komponenten aus, die Sie synchronisieren möchten.",
         "Synchronize": "Synchronisieren",
-        "SelectMacro": "Please select the macro you want to execute"
+        "SelectMacro": "Please select the macro you want to execute",
+        "SimNotStarted": "Simulator isn't started"
     }
 }

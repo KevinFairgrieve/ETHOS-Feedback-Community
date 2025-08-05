@@ -540,6 +540,7 @@
         "ExecSimScript": "Spustit makro skript simulátoru",
         "SelectSyncComponent": "Vyberte komponenty, které chcete synchronizovat",
         "Synchronize": "Synchronizovat",
-        "SelectMacro": "Please select the macro you want to execute"
+        "SelectMacro": "Please select the macro you want to execute",
+        "SimNotStarted": "Simulator isn't started"
     }
 }
