@@ -101,7 +101,8 @@
         "Dismiss": "Descartar",
         "ShowPrereleases": "Mostrar pre-releases",
         "VisitThirdparty": "Visitar url de terceros",
-        "PathInvalid": "La localización del archivo contiene caracteres inválidos, y el archivo se ha eliminado de la lista"
+        "PathInvalid": "La localización del archivo contiene caracteres inválidos, y el archivo se ha eliminado de la lista",
+        "OpenFile": "Open file"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Elija su versión de video componente",
@@ -532,6 +533,7 @@
         "InitFailAndFallBackToDefault": "El directorio seleccionado del simulador no consiguió inicializar los archivos necesarios del simulador por lo que hemos vuelto al directorio por defecto.",
         "ExecSimScript": "Ejecute el macro script del simulador",
         "SelectSyncComponent": "Seleccione los componentes que quiere sincronizar",
-        "Synchronize": "Sincronizar"
+        "Synchronize": "Sincronizar",
+        "SelectMacro": "Please select the macro you want to execute"
     }
 }

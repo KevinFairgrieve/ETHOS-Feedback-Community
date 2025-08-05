@@ -105,7 +105,8 @@
         "Dismiss": "Abbrechen",
         "ShowPrereleases": "Vorab-Veröffentlichungen anzeigen",
         "VisitThirdparty": "Drittanbieterwebseite besuchen",
-        "PathInvalid": "Der ausgewählte Dateipfad enthält ungültige Zeichen und die Datei wurde aus der Liste entfernt."
+        "PathInvalid": "Der ausgewählte Dateipfad enthält ungültige Zeichen und die Datei wurde aus der Liste entfernt.",
+        "OpenFile": "Open file"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Wählen Sie Ihre Video-Komponenten-Version",
@@ -539,6 +540,7 @@
         "InitFailAndFallBackToDefault": "Das ausgewählte Simulatorverzeichnis konnte die erforderlichen Simulatordateien nicht initialisieren und ist auf den Standardpfad zurückgesetzt worden.",
         "ExecSimScript": "Simulator-Makroskript ausführen",
         "SelectSyncComponent": "Wählen Sie die Komponenten aus, die Sie synchronisieren möchten.",
-        "Synchronize": "Synchronisieren"
+        "Synchronize": "Synchronisieren",
+        "SelectMacro": "Please select the macro you want to execute"
     }
 }

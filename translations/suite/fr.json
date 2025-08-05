@@ -105,7 +105,8 @@
         "Dismiss": "Annuler",
         "ShowPrereleases": "Affichage pré-versions",
         "VisitThirdparty": "Accéder url accessoires",
-        "PathInvalid": "Le répertoire sélectionné contient des caractères non valides, et le fichier a été retiré de la liste"
+        "PathInvalid": "Le répertoire sélectionné contient des caractères non valides, et le fichier a été retiré de la liste",
+        "OpenFile": "Open file"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Choisir votre version de composant vidéo",
@@ -539,7 +540,7 @@
         "InitFailAndFallBackToDefault": "Le répertoire choisit ne permet pas l'initialisation des fichiers du simulateur. Retour au répertoire par défaut.",
         "ExecSimScript": "Executer macros scripts du simulateur",
         "SelectSyncComponent": "Choisir éléments à synchroniser",
-        "Synchronize": "Synchroniser"
+        "Synchronize": "Synchroniser",
+        "SelectMacro": "Please select the macro you want to execute"
     }
-
 }

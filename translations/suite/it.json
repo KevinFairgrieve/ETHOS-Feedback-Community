@@ -105,7 +105,8 @@
         "Dismiss": "Dismetti",
         "ShowPrereleases": "Mostra pre-releases",
         "VisitThirdparty": "Visita link terze-parti",
-        "PathInvalid": "Il percorso file selezionato contiene caratteri non validi, e il file è stato rimosso dalla lista"
+        "PathInvalid": "Il percorso file selezionato contiene caratteri non validi, e il file è stato rimosso dalla lista",
+        "OpenFile": "Open file"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Scegliere la versione del video component",
@@ -538,6 +539,7 @@
         "InitFailAndFallBackToDefault": "Il Simulatore selezionato non è riuscito a inizializzare i files necessari della directory ed è ritornata al percorso standard.",
         "ExecSimScript": "Esegui gli script delle macro",
         "SelectSyncComponent": "Seleziona i componenti che vuoi sincronizzare",
-        "Synchronize": "Sincronizza"
+        "Synchronize": "Sincronizza",
+        "SelectMacro": "Please select the macro you want to execute"
     }
 }

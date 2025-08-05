@@ -105,7 +105,8 @@
         "Dismiss": "Zrušiť",
         "ShowPrereleases": "Ukázať pre-releases",
         "VisitThirdparty": "Navštíviť webovú lokalitu tretích strán",
-        "PathInvalid": "Zvolená cesta k súboru obsahuje neplatné znaky, súbor bude odstránený zo zoznamu"
+        "PathInvalid": "Zvolená cesta k súboru obsahuje neplatné znaky, súbor bude odstránený zo zoznamu",
+        "OpenFile": "Open file"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Zvoľte verziu vašej zobrazovacej jednotky",
@@ -539,6 +540,7 @@
         "InitFailAndFallBackToDefault": "The selected simulator directory failed to initialize the necessary simulator files and has fallen back to the default path.",
         "ExecSimScript": "Execute simulator macro script",
         "SelectSyncComponent": "Select components you want to synchronize",
-        "Synchronize": "Synchronize"
+        "Synchronize": "Synchronize",
+        "SelectMacro": "Please select the macro you want to execute"
     }
 }

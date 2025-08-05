@@ -105,7 +105,8 @@
         "Dismiss": "忽略",
         "ShowPrereleases": "显示预发布版本",
         "VisitThirdparty": "访问第三方链接",
-        "PathInvalid": "The selected file path contains invalid characters, and the file has been removed from the list"
+        "PathInvalid": "The selected file path contains invalid characters, and the file has been removed from the list",
+        "OpenFile": "Open file"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "选择你的视频组件版本",
@@ -538,6 +539,7 @@
         "InitFailAndFallBackToDefault": "The selected simulator directory failed to initialize the necessary simulator files and has fallen back to the default path.",
         "ExecSimScript": "Execute simulator macro script",
         "SelectSyncComponent": "Select components you want to synchronize",
-        "Synchronize": "Synchronize"
+        "Synchronize": "Synchronize",
+        "SelectMacro": "Please select the macro you want to execute"
     }
 }

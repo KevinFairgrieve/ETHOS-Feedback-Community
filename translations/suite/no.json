@@ -105,7 +105,8 @@
         "Dismiss": "Avvis",
         "ShowPrereleases": "Vis 'Pre-releases'",
         "VisitThirdparty": "Gå til ekstern URL adresse",
-        "PathInvalid": "Den valgte fil-banen inneholder ugyldige tegn og filen har blitt fjernet fra listen"
+        "PathInvalid": "Den valgte fil-banen inneholder ugyldige tegn og filen har blitt fjernet fra listen",
+        "OpenFile": "Open file"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Velg din video-komponent-versjon",
@@ -540,6 +541,7 @@
         "InitFailAndFallBackToDefault": "The selected simulator directory failed to initialize the necessary simulator files and has fallen back to the default path.",
         "ExecSimScript": "Execute simulator macro script",
         "SelectSyncComponent": "Select components you want to synchronize",
-        "Synchronize": "Synchronize"
+        "Synchronize": "Synchronize",
+        "SelectMacro": "Please select the macro you want to execute"
     }
 }

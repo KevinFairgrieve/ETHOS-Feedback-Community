@@ -104,7 +104,8 @@
         "Dismiss": "Zamítnout",
         "ShowPrereleases": "Ukázat předběžná vydání",
         "VisitThirdparty": "Ukázat cizí adresu",
-        "PathInvalid": "Vybraná cesta k souboru obsahuje neplatné znaky a soubor byl odstraněn ze seznamu"
+        "PathInvalid": "Vybraná cesta k souboru obsahuje neplatné znaky a soubor byl odstraněn ze seznamu",
+        "OpenFile": "Open file"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Vyberte verzi komponenty videa",
@@ -538,6 +539,7 @@
         "InitFailAndFallBackToDefault": "Selhala inicializace vybrané složky simulátoru, použita výchozí cesta.",
         "ExecSimScript": "Spustit makro skript simulátoru",
         "SelectSyncComponent": "Vyberte komponenty, které chcete synchronizovat",
-        "Synchronize": "Synchronizovat"
+        "Synchronize": "Synchronizovat",
+        "SelectMacro": "Please select the macro you want to execute"
     }
 }
