@@ -102,9 +102,9 @@
         "ShowPrereleases": "Mostrar pre-releases",
         "VisitThirdparty": "Visitar url de terceros",
         "PathInvalid": "La localización del archivo contiene caracteres inválidos, y el archivo se ha eliminado de la lista",
-        "OpenFile": "Open file",
-        "Add": "Add",
-        "Upload": "Upload"
+        "OpenFile": "Abrir archivo",
+        "Add": "Añadir",
+        "Upload": "Cargar"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Elija su versión de video componente",
