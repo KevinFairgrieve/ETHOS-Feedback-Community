@@ -106,7 +106,9 @@
         "ShowPrereleases": "Affichage pré-versions",
         "VisitThirdparty": "Accéder url accessoires",
         "PathInvalid": "Le répertoire sélectionné contient des caractères non valides, et le fichier a été retiré de la liste",
-        "OpenFile": "Open file"
+        "OpenFile": "Open file",
+        "Add": "Add",
+        "Upload": "Upload"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Choisir votre version de composant vidéo",
@@ -545,5 +547,4 @@
         "SimNotStarted": "Simulateur non démarré",
         "NoMacroFound": "Aucune macro pour le simulateur trouvé"
     }
-
 }

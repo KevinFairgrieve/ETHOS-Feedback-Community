@@ -105,7 +105,9 @@
         "ShowPrereleases": "Ukázat předběžná vydání",
         "VisitThirdparty": "Ukázat cizí adresu",
         "PathInvalid": "Vybraná cesta k souboru obsahuje neplatné znaky a soubor byl odstraněn ze seznamu",
-        "OpenFile": "Open file"
+        "OpenFile": "Open file",
+        "Add": "Add",
+        "Upload": "Upload"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Vyberte verzi komponenty videa",

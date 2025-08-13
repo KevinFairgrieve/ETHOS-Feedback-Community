@@ -106,7 +106,9 @@
         "ShowPrereleases": "Vis 'Pre-releases'",
         "VisitThirdparty": "Gå til ekstern URL adresse",
         "PathInvalid": "Den valgte fil-banen inneholder ugyldige tegn og filen har blitt fjernet fra listen",
-        "OpenFile": "Open file"
+        "OpenFile": "Open file",
+        "Add": "Add",
+        "Upload": "Upload"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Velg din video-komponent-versjon",

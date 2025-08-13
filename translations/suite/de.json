@@ -106,7 +106,9 @@
         "ShowPrereleases": "Vorab-Veröffentlichungen anzeigen",
         "VisitThirdparty": "Drittanbieterwebseite besuchen",
         "PathInvalid": "Der ausgewählte Dateipfad enthält ungültige Zeichen und die Datei wurde aus der Liste entfernt.",
-        "OpenFile": "Datei öffnen"
+        "OpenFile": "Datei öffnen",
+        "Add": "Add",
+        "Upload": "Upload"
     },
     "ChooseVideoVersion": {
         "ChooseYourVideoComponentVersion": "Wählen Sie Ihre Video-Komponenten-Version",
@@ -545,5 +547,4 @@
         "SimNotStarted": "Der Simulator ist nicht gestartet.",
         "NoMacroFound": "Es wurde kein verfügbares Simulator-Makro gefunden."
     }
-
 }
