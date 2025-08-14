@@ -163,7 +163,7 @@
         "ProductAssets": "Gamme de produits"
     },
     "VersionTag": {
-        "FetchingFromServer": "Fetching from the server ...",
+        "FetchingFromServer": "Récupération depuis le serveur...",
         "NoCurrentVersion": "Pas de nouvelle version",
         "OutOfDate": "Mise à jour disponible",
         "GreaterThanLatestRelease": "Supérieure à la version actuelle",
@@ -370,10 +370,10 @@
         "Export": "Exporter",
         "DebugOptions": "Options débuggage",
         "Proxy": "Proxy",
-        "NoProxy": "No proxy",
-        "SystemProxy": "System proxy",
-        "CustomProxy": "Custom proxy",
-        "ProxyAddress": "Proxy address",
+        "NoProxy": "Pas de proxy",
+        "SystemProxy": "Proxy système",
+        "CustomProxy": "Proxy perso",
+        "ProxyAddress": "Adresse proxy",
         "ProxyPort": "Port"
     },
     "Documentation": {
@@ -546,9 +546,10 @@
         "SelectMacro": "Sélectionner la macro à executer",
         "SimNotStarted": "Simulateur non démarré",
         "NoMacroFound": "Aucune macro pour le simulateur trouvé",
-        "AutoCentering": "Auto centering",
-        "MaintainVertical": "Maintain vertical axis movement",
-        "MaintainHorizontal": "Maintain horizontal axis movement",
-        "MidpointSnapping": "Midpoint snapping"
+        "AutoCentering": "Centrage auto",
+        "MaintainVertical": "Axe vertical maintenu",
+        "MaintainHorizontal": "Axe horizontal maintenu",
+        "MidpointSnapping": "Accrochage point central"
     }
+
 }
