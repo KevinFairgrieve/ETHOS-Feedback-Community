@@ -545,9 +545,9 @@
         "SelectMacro": "Seleziona la macro che vuoi eseguire",
         "SimNotStarted": "Simulatore non avviato",
         "NoMacroFound": "Nessuna macro del simulatore trovata",
-        "AutoCentering": "Auto centering",
-        "MaintainVertical": "Maintain vertical axis movement",
-        "MaintainHorizontal": "Maintain horizontal axis movement",
-        "MidpointSnapping": "Midpoint snapping"
+        "AutoCentering": "Auto centraggio",
+        "MaintainVertical": "Mantieni movimento asse verticale",
+        "MaintainHorizontal": "Mantieni movimento asse orizzontale",
+        "MidpointSnapping": "Snap al Midpoint"
     }
 }
