@@ -545,6 +545,10 @@
         "Synchronize": "Synchroniser",
         "SelectMacro": "Sélectionner la macro à executer",
         "SimNotStarted": "Simulateur non démarré",
-        "NoMacroFound": "Aucune macro pour le simulateur trouvé"
+        "NoMacroFound": "Aucune macro pour le simulateur trouvé",
+        "AutoCentering": "Auto centering",
+        "MaintainVertical": "Maintain vertical axis movement",
+        "MaintainHorizontal": "Maintain horizontal axis movement",
+        "MidpointSnapping": "Midpoint snapping"
     }
 }

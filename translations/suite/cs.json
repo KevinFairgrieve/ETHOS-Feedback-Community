@@ -544,6 +544,10 @@
         "Synchronize": "Synchronizovat",
         "SelectMacro": "Prosím, vyberte makro ke spuštění",
         "SimNotStarted": "Simulátor neběží",
-        "NoMacroFound": "Nenalezeno dostupné makro"
+        "NoMacroFound": "Nenalezeno dostupné makro",
+        "AutoCentering": "Auto centering",
+        "MaintainVertical": "Maintain vertical axis movement",
+        "MaintainHorizontal": "Maintain horizontal axis movement",
+        "MidpointSnapping": "Midpoint snapping"
     }
 }

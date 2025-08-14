@@ -545,7 +545,10 @@
         "Synchronize": "Synchronisieren",
         "SelectMacro": "Bitte wählen Sie das Makro aus, das Sie ausführen möchten.",
         "SimNotStarted": "Der Simulator ist nicht gestartet.",
-        "NoMacroFound": "Es wurde kein verfügbares Simulator-Makro gefunden."
+        "NoMacroFound": "Es wurde kein verfügbares Simulator-Makro gefunden.",
+        "AutoCentering": "Auto centering",
+        "MaintainVertical": "Maintain vertical axis movement",
+        "MaintainHorizontal": "Maintain horizontal axis movement",
+        "MidpointSnapping": "Midpoint snapping"
     }
-
 }
