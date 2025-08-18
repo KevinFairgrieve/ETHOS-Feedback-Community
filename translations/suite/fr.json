@@ -549,7 +549,8 @@
         "AutoCentering": "Centrage auto",
         "MaintainVertical": "Axe vertical maintenu",
         "MaintainHorizontal": "Axe horizontal maintenu",
-        "MidpointSnapping": "Accrochage point central"
+        "MidpointSnapping": "Accrochage point central",
+        "ToggleConsoleWindow": "Toggle console window",
+        "ClearConsoleOutput": "Clear console output"
     }
-
 }

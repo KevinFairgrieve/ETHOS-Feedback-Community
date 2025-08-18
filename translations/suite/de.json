@@ -549,7 +549,8 @@
         "AutoCentering": "Selbstzentrierung",
         "MaintainVertical": "Vertikale Achsenbewegung beibehalten",
         "MaintainHorizontal": "Horizontale Achsenbewegung beibehalten",
-        "MidpointSnapping": "Mittelpunkt-Ausrichtung"
+        "MidpointSnapping": "Mittelpunkt-Ausrichtung",
+        "ToggleConsoleWindow": "Toggle console window",
+        "ClearConsoleOutput": "Clear console output"
     }
-
 }

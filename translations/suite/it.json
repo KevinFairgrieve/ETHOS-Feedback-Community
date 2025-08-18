@@ -548,6 +548,8 @@
         "AutoCentering": "Auto centraggio",
         "MaintainVertical": "Mantieni movimento asse verticale",
         "MaintainHorizontal": "Mantieni movimento asse orizzontale",
-        "MidpointSnapping": "Snap al Midpoint"
+        "MidpointSnapping": "Snap al Midpoint",
+        "ToggleConsoleWindow": "Toggle console window",
+        "ClearConsoleOutput": "Clear console output"
     }
 }
