@@ -529,7 +529,7 @@
         "UploadFiles": "Carica Files",
         "UploadFilesDestQuestion": "Quale directory vuoi caricare nel simulatore?",
         "CustomDirectory": "Directory personalizzata",
-        "RestartSimuatorQuestion": "Files caricati correttamente. Necessiti di riavviare il simulatore per attivare i files?",
+        "FileUploadedAndReloadSimQuestion": "Files caricati correttamente. Necessiti di riavviare il simulatore per attivare i files?",
         "SwitchPageQuestion": "Il simulatore sta per essere arrestato. Sei sicuro di voler continuare?",
         "NoDestDirSelected": "Nessuna directory di destinazione selezionata!",
         "SyncRadioFilesToLocalSimulator": "Sincr. files radio al Simulatore locale.",
@@ -550,6 +550,12 @@
         "MaintainHorizontal": "Mantieni movimento asse orizzontale",
         "MidpointSnapping": "Snap al Midpoint",
         "ToggleConsoleWindow": "Attiva finestr console",
-        "ClearConsoleOutput": "Svuota output console"
+        "ClearConsoleOutput": "Svuota output console",
+        "ReloadSimulator": "Reload simulator",
+        "ReloadSimQuestion": "Do you want to reload the simulator?",
+        "HowToUploadFilesToSim": "How to upload files to simulator?",
+        "UploadFilesStep1": "Open the local simulator directory",
+        "UploadFilesStep2": "Put files / directories to the local simulator directory. The path should goes like ${PathToLocalSimulator}/.simulator/${ReleaseTagName}/persist/${RadioName}/",
+        "UploadFilesStep3": "Reload the running simulator"
     }
 }
