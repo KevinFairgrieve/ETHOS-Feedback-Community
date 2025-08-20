@@ -555,9 +555,10 @@
         "ReloadSimulator": "Simulator neu starten",
         "ReloadSimQuestion": "Simulator neu starten",
         "HowToUploadFilesToSim": "Wie lade ich Dateien auf den Simulator hoch?",
-        "UploadFilesStep1": "Öffnen Sie das lokale Simulatorverzeichnis.,
+        "UploadFilesStep1": "Öffnen Sie das lokale Simulatorverzeichnis.",
         "UploadFilesStep2": „Legen Sie Dateien/Verzeichnisse im lokalen Simulatorverzeichnis ab. Der Pfad sollte wie folgt lauten: \n> ${PathToLocalSimulator}/.simulator/${ReleaseTagName}/persist/${RadioName}/“,
         "UploadFilesStep3": "Laden Sie den laufenden Simulator neu."
     }
 
 }
+
