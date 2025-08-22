@@ -549,7 +549,7 @@
         "MaintainVertical": "Mantieni movimento asse verticale",
         "MaintainHorizontal": "Mantieni movimento asse orizzontale",
         "MidpointSnapping": "Snap al Midpoint",
-        "ToggleConsoleWindow": "Attiva finestr console",
+        "ToggleConsoleWindow": "Attiva finestra console",
         "ClearConsoleOutput": "Svuota output console",
         "ReloadSimulator": "Ricarica simulatore",
         "ReloadSimQuestion": "Vuoi ricaricare il simulatore?",
