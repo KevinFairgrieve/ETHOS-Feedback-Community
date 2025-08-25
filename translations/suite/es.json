@@ -281,7 +281,9 @@
         "ContinueUpdaing": "Continue actualizando",
         "CheckingComponentsVersion": "Comprobando version de componentes ...",
         "ComponentsNeedToBeUpdated": "Se necesita actualizar componentes",
-        "UpdateComponentToVersion": "El componente {{ component }} necesita ser actualizado a la versión {{ version }}"
+        "UpdateComponentToVersion": "El componente {{ component }} necesita ser actualizado a la versión {{ version }}",
+        "ConfirmFlashBootloader": "Confirm flashing bootloader",
+        "Bootloader170confirmation": "Upgrading the bootloader to version 1.7.0 will erase all contents on the FLASH drive. Are you sure you want to continue?"
     },
     "RFModule": {
         "RFModule": "Módulo de RF",

@@ -288,7 +288,9 @@
         "ContinueUpdaing": "继续升级",
         "CheckingComponentsVersion": "正在获取组件版本号 ...",
         "ComponentsNeedToBeUpdated": "组件需要升级",
-        "UpdateComponentToVersion": "组件 {{ component }} 需要升级到版本 {{ version }}"
+        "UpdateComponentToVersion": "组件 {{ component }} 需要升级到版本 {{ version }}",
+        "ConfirmFlashBootloader": "Confirm flashing bootloader",
+        "Bootloader170confirmation": "Upgrading the bootloader to version 1.7.0 will erase all contents on the FLASH drive. Are you sure you want to continue?"
     },
     "RFModule": {
         "RFModule": "射频模块",
