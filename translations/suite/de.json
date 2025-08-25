@@ -289,8 +289,8 @@
         "CheckingComponentsVersion": "Komponentenversion überprüfen...",
         "ComponentsNeedToBeUpdated": "Es müssen Komponenten aktualisiert werden!",
         "UpdateComponentToVersion": "Die Komponente {{ component }} muss auf Version {{ version }} aktualisiert werden!",
-        "ConfirmFlashBootloader": "Confirm flashing bootloader",
-        "Bootloader170confirmation": "Upgrading the bootloader to version 1.7.0 will erase all contents on the FLASH drive. Are you sure you want to continue?"
+        "ConfirmFlashBootloader": "Bestätigen Sie das Flashen des Bootloaders",
+        "Bootloader170confirmation": "Durch das Upgrade des Bootloaders auf Version 1.7.0 werden alle Inhalte auf dem FLASH-Laufwerk gelöscht. Möchten Sie wirklich fortfahren?"
     },
     "RFModule": {
         "RFModule": "HF-Modul",
@@ -561,4 +561,5 @@
         "UploadFilesStep2": "Legen Sie Dateien/Verzeichnisse im lokalen Simulatorverzeichnis ab. Der Pfad sollte wie folgt lauten:\n> ${PathToLocalSimulator}/.simulator/${ReleaseTagName}/persist/${RadioName}/",
         "UploadFilesStep3": "Laden Sie den laufenden Simulator neu."
     }
+
 }
