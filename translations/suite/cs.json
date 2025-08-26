@@ -285,11 +285,11 @@
         "BackupOrContinueUpdate": "Před aktualizací se doporučuje zálohovat obsah rádia. Chcete přejít na zálohování nebo pokračovat v aktualizaci?",
         "GoToBackup": "Na zálohování",
         "ContinueUpdaing": "Aktualizovat",
-        "CheckingComponentsVersion": "Checking components version ...",
-        "ComponentsNeedToBeUpdated": "Components need to be updated",
-        "UpdateComponentToVersion": "Component {{ component }} needs to be updated to version {{ version }}",
-        "ConfirmFlashBootloader": "Confirm flashing bootloader",
-        "Bootloader170confirmation": "Upgrading the bootloader to version 1.7.0 will erase all contents on the FLASH drive. Are you sure you want to continue?"
+        "CheckingComponentsVersion": "Kontrola verze komponentů ...",
+        "ComponentsNeedToBeUpdated": "Komponenty je nutno aktualizovat",
+        "UpdateComponentToVersion": "Komponent {{ component }} je třeba aktualizovat na verzi {{ version }}",
+        "ConfirmFlashBootloader": "Potvrďte flash bootloaderu",
+        "Bootloader170confirmation": "Aktualizace bootloaderu na verzi 1.7.0 smaže veškerý obsah jednotky \"FLASH\". Opravdu chcete pokračovat?"
     },
     "RFModule": {
         "RFModule": "RF modul",
@@ -319,7 +319,7 @@
         "SelectRestoreComponent": "Vyberte soubor který chcete obnovit",
         "NoBackupFileFound": "Soubor zálohy nenalezen",
         "RestoreWillStart": "Obnova začne",
-        "RestoreFile": "Obnoví vybrané komponenty v {{ souboru }} do vašeho rádia. Tím přepíšete soubory se stejným názvem ve vašem rádiu.",
+        "RestoreFile": "Obnoví vybrané komponenty v {{ file }} do vašeho rádia. Tím přepíšete soubory se stejným názvem ve vašem rádiu.",
         "BackupRestoreCompleted": "Obnova zálohy dokončena",
         "BackupCompleted": "Záloha dokončena",
         "BackupWriteTo": "Soubor zálohy zapsán do {{ file }}",
