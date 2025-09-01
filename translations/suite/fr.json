@@ -552,13 +552,14 @@
         "MaintainVertical": "Axe vertical maintenu",
         "MaintainHorizontal": "Axe horizontal maintenu",
         "MidpointSnapping": "Accrochage point central",
-        "ToggleConsoleWindow": "Toggle console window",
-        "ClearConsoleOutput": "Clear console output",
-        "ReloadSimulator": "Reload simulator",
-        "ReloadSimQuestion": "Do you want to reload the simulator?",
-        "HowToUploadFilesToSim": "How to upload files to simulator?",
-        "UploadFilesStep1": "Open the local simulator directory",
-        "UploadFilesStep2": "Put files / directories to the local simulator directory. The path should goes like\n> ${PathToLocalSimulator}/.simulator/${ReleaseTagName}/persist/${RadioName}/",
-        "UploadFilesStep3": "Reload the running simulator"
+        "ToggleConsoleWindow": "Basculer vers la console windows",
+        "ClearConsoleOutput": "Effacer la sortie console",
+        "ReloadSimulator": "Recharger le simulateur",
+        "ReloadSimQuestion": "Rechargement du simulateur ?",
+        "HowToUploadFilesToSim": "Comment charger les fichiers vers le simulateur ?",
+        "UploadFilesStep1": "Ouvrir le répertoire local du simulateur",
+        "UploadFilesStep2": "Mettre les fichiers/ répertoires dans le répertoire local du simulateur. Le chemin doit être\n> ${PathToLocalSimulator}/.simulator/${ReleaseTagName}/persist/${RadioName}/",
+        "UploadFilesStep3": "Recharger le simulateur en cours d'utilisation",
     }
+
 }
