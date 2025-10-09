@@ -164,16 +164,26 @@ local function paint()
   local tw, th = lcd.getTextSize(STR("PositionRX"))
   lcd.drawText(width / 2, height / 3, STR("PositionRX"), CENTERED)
   if gyroModeCheck == GYRO_MODE_CHECK_PASS and (step < 6 or calibrationState ~= CALIBRATION_INIT) then
-    lcd.drawText(width / 2, height / 3 + th * 2, STR("PressCaliToStart"), CENTERED)
+    lcd.drawText(width / 2, height / 3 + th, STR("PressCaliToStart"), CENTERED)
   end
 
   if bitmap ~= nil then
     local w = bitmap:width()
     local h = bitmap:height()
-    local x = width / 2 - w / 2
     -- local y = height / 3 * 2 - h / 2
-    local y = height / 3 + th * 4
-    lcd.drawBitmap(x, y, bitmap)
+    local y = height / 2
+    if height / 2 < 200 then
+      if step >= 6 then
+        local x = width / 2 - w / 2
+        lcd.drawBitmap(x, y, bitmap)
+      else
+        local x = width / 2 - 105
+        lcd.drawBitmap(x, y, bitmap, 210, 150)
+      end
+    else
+      local x = width / 2 - w / 2
+      lcd.drawBitmap(x, y, bitmap)
+    end
   end
 end
 
