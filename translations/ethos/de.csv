@@ -1188,6 +1188,7 @@ RIGHT_DOOR_CLOSE_CALIBRATE,"None","Kalib. der re. Radklappenschließung","Kalib.
 RIGHT_DOOR_OPEN_CALIBRATE,"None","Kalib. der re. Radklappenöffung"
 LEFT_DOOR_CLOSE_CALIBRATE,"None","Kalib. der li. Radklappenschließung"
 LEFT_DOOR_OPEN_CALIBRATE,"None","Kalib. der li. Radklappenöffung"
-PGC_CALIBRATE_MESSAGE,"None","Bitte überprüfen Sie in Echtzeit die Funktion des PGC und schließen Sie das Fenster, wenn Sie die Kalibrierung beenden möchten."
 ENDING_CALIBRATION,"None","Kalibrierung beenden"
 ENDING_CALIBRATION_MESSAGE,"None","Kalibrierung wird beendet, bitte warten Sie, bis das Dialogfeld geschlossen ist ..."
+PGC_CALIBRATE_MESSAGE,"None","Please press the calibration direction button to begin calibration. And press Stop when necessary, based on the real-time status from the PGC."
+STOP,"None","Stop"
