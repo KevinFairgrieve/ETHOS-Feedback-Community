@@ -65,22 +65,6 @@ return {
   CalibrationFinished = "Calibration terminée !",
   OpenGyroMode = "Gyro non activé",
   ConfirmOpenGyroMode = "Activer \"Gyro\"?",
-  NoArrowHint = "Il n'y a pas de flèche sur ma box.",
-  FindAnArrow = "Visiter le site officiel Frsky, choisir le produit correspondant et dessiner une flèche sur votre boitier en fonction.",
-
-  CaliSR6Step1 = "Positionner le SR6 horizontalement, connecteurs en haut.",
-  CaliSR6Step2 = "Positionner le SR6 horizontalement, connecteurs en bas.",
-  CaliSR6Step3 = "Positionner le SR6 verticalement, ANT en bas.",
-  CaliSR6Step4 = "Positionner le SR6 verticalement, ANT en haut.",
-  CaliSR6Step5 = "Positionner le SR6 ANT à droite, connecteurs face à vous.",
-  CaliSR6Step6 = "Positionner le SR6 ANT à droite, connecteurs face opposée.",
-
-  CaliCommonStep1 = "Positionner le Rx Stab. horizontalement, label vers le haut.",
-  CaliCommonStep2 = "Positionner le Rx Stab. horizontalement, label vers le bas.",
-  CaliCommonStep3 = "Positionner le Rx Stab., label face à vous, flèche vers le haut.",
-  CaliCommonStep4 = "Positionner le Rx Stab., label face à vous, flèche vers le bas.",
-  CaliCommonStep5 = "Positionner le Rx Stab., label face à vous, flèche vers la droite.",
-  CaliCommonStep6 = "Positionner le Rx Stab., label face à vous, flèche vers la gauche.",
 
   PositionRX = "Positionner le Rx comme sur l'image",
 

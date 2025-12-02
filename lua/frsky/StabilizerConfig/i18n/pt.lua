@@ -65,22 +65,6 @@ return {
   CalibrationFinished = "Calibration finished!",
   OpenGyroMode = "Gyro mode not enabled",
   ConfirmOpenGyroMode = "Do you want to enable \"Gyro mode\"?",
-  NoArrowHint = "I don't have an arrow on my Rx box.",
-  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
-
-  CaliSR6Step1 = "Place your SR6 horizontal, top side up.",
-  CaliSR6Step2 = "Place your SR6 horizontal, top side down.",
-  CaliSR6Step3 = "Place your SR6 vertical, ANT down.",
-  CaliSR6Step4 = "Place your SR6 vertical, ANT up.",
-  CaliSR6Step5 = "Place your SR6 with ANT right, top side facing you.",
-  CaliSR6Step6 = "Place your SR6 with ANT right, back side facing you.",
-
-  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
-  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
-  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
-  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
-  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
-  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
 
   PositionRX = "Please position your receiver as shown in the image",
 

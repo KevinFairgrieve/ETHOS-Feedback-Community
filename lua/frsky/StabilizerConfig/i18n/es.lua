@@ -65,22 +65,6 @@ return {
   CalibrationFinished = "¡Calibración terminada!",
   OpenGyroMode = "Modo Giro no activado",
   ConfirmOpenGyroMode = "¿Quiere activar \"modo Giro\"?",
-  NoArrowHint = "No tengo una flecha en la caja de mi Rx.",
-  FindAnArrow = "Por favor, visite la página web oficial del producto, y busque el diagrama correspondiente para la flecha, y dibujela en su receptor.",
-
-  CaliSR6Step1 = "Coloque su SR6 horizontal, parte superior hacia arriba.",
-  CaliSR6Step2 = "Coloque su SR6 horizontal, parte superior hacia abajo.",
-  CaliSR6Step3 = "Coloque su SR6 vertical, con la antena hacia abajo.",
-  CaliSR6Step4 = "Coloque su SR6 vertical, con la antena hacia arriba.",
-  CaliSR6Step5 = "Coloque su SR6 con la antena hacia la derecha, y la parte de arriba hacia usted.",
-  CaliSR6Step6 = "Coloque su SR6 con la antena a la derecha, y la parte de abajo hacia usted.",
-
-  CaliCommonStep1 = "Coloque su Rx estabilizado horizontal con la etiqueta hacia ARRIBA.",
-  CaliCommonStep2 = "Coloque su Rx estabilizado horizontal con la etiqueta hacia ABAJO.",
-  CaliCommonStep3 = "Coloque su Rx estabilizado con la etiqueta mirando hacia usted y la flecha apuntando hacia ARRIBA.",
-  CaliCommonStep4 = "Coloque su Rx estabilizado con la etiqueta mirando hacia usted y la flecha apuntando hacia ABAJO.",
-  CaliCommonStep5 = "Coloque su Rx estabilizado con la etiqueta mirando hacia usted y la flecha apuntando hacia la DERECHA.",
-  CaliCommonStep6 = "Coloque su Rx estabilizado con la etiqueta mirando hacia usted y la flecha apuntando hacia la IZQUIERDA.",
 
   PositionRX = "Por favor, ponga su receptor como se muestra en la imagen",
 

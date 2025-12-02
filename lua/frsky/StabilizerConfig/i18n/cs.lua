@@ -64,22 +64,6 @@ UnableToRead = "Nelze načíst",
   CalibrationFinished = "Kalibrace dokončena!",
   OpenGyroMode = "Režim gyra není aktivní",
   ConfirmOpenGyroMode = "Chcete aktivovat režim \"Gyro\"?",
-  NoArrowHint = "I don't have an arrow on my Rx box.",
-  FindAnArrow = "Please visit the official website's product page, find the corresponding diagram for the arrow, and draw an arrow on your receiver accordingly.",
-
-  CaliSR6Step1 = "Umístěte SR6 vodorovně, horní stranou nahoru.",
-  CaliSR6Step2 = "Umístěte SR6 vodorovně, horní stranou dolů.",
-  CaliSR6Step3 = "Umístěte SR6 svisle, anténou dolů.",
-  CaliSR6Step4 = "Umístěte SR6 svisle, anténou nahoru.",
-  CaliSR6Step5 = "Umístěte SR6 s anténou vpravo, horní stranou k vám.",
-  CaliSR6Step6 = "Umístěte SR6 s anténou vpravo, zadní stranou k vám.",
-
-  CaliCommonStep1 = "Place your Stabilizer Rx horizontal with the label facing UP.",
-  CaliCommonStep2 = "Place your Stabilizer Rx horizontal with the label facing DOWN.",
-  CaliCommonStep3 = "Place your Stabilizer Rx with the label facing you and the arrow pointing UPWARD.",
-  CaliCommonStep4 = "Place your Stabilizer Rx with the label facing you and the arrow pointing DOWNWARD.",
-  CaliCommonStep5 = "Place your Stabilizer Rx with the label facing you and the arrow pointing RIGHT.",
-  CaliCommonStep6 = "Place your Stabilizer Rx with the label facing you and the arrow pointing LEFT.",
 
   PositionRX = "Please position your receiver as shown in the image",
 

@@ -65,22 +65,6 @@ return {
   CalibrationFinished = "Calibrazione finita!",
   OpenGyroMode = "Gyro non abilitato",
   ConfirmOpenGyroMode = "Vuoi abilitare \"Gyro mode\"?",
-  NoArrowHint = "Non ho una freccia sul box della Rx.",
-  FindAnArrow = "Si prega di visitare la pagina sul sito ufficiale, Trova il diagramma corrispondente la freccia, e disegnala sulla Rx.",
-
-  CaliSR6Step1 = "Metti la SR6 orizzontale, parte superiore su.",
-  CaliSR6Step2 = "Metti la SR6 orizzontale, parte superiore giù.",
-  CaliSR6Step3 = "Metti la SR6 verticale, ANT giù.",
-  CaliSR6Step4 = "Metti la SR6 verticale, ANT su.",
-  CaliSR6Step5 = "Metti la SR6 con ANT destra, parte superiore frontale a te.",
-  CaliSR6Step6 = "Metti la SR6 con ANT destra, parte posteriore frontale a te.",
-
-  CaliCommonStep1 = "Metti la tua Rx stabilizzata orizzontale con etichetta faccia SU.",
-  CaliCommonStep2 = "Metti la tua Rx stabilizzata orizzontale con etichetta faccia GIU.",
-  CaliCommonStep3 = "Metti la tua Rx stabilizzata orizzontale con etichetta frontale a te, freccia punta verso SU.",
-  CaliCommonStep4 = "Metti la tua Rx stabilizzata orizzontale con etichetta frontale a te, freccia punta verso GIU.",
-  CaliCommonStep5 = "Metti la tua Rx stabilizzata orizzontale con etichetta frontale a te, freccia punta verso DESTRA.",
-  CaliCommonStep6 = "Metti la tua Rx stabilizzata orizzontale con etichetta frontale a te, freccia punta verso SINISTRA.",
 
   PositionRX = "Metti la ricevente come nell'immagine",
 
